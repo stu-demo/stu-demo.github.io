@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>КиноФлакон IVI</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="script.js"></script>
+</head>
+
+<body>
+<!-- popup -->
+<div id="popup">
+    <div class="header">
+        <div class="row">
+            <div class="col-10">
+                <div class="day"><span class="number">24</span> Июля</div>
+                <div>
+                    <span id="title"></span>&nbsp;<sup id="age"></sup>
+                </div>
+                <div id="movie-time" class="number"></div>
+            </div>
+            <div class="col-2">
+                <div id="close-button"></div>
+            </div>
+        </div>
+    </div>
+    <div class="movie-info-popup">
+        <div class="tags">
+            <div class="row">
+                <div class="col-3">
+                    <div id="year" class="number"></div>
+                </div>
+                <div class="col-4">
+                    <div id="genre"></div>
+                    <div id="country"></div>
+                </div>
+                <div class="col-5">
+                    <div id="director"></div>
+                    <div id="language"></div>
+                </div>
+            </div>
+        </div>
+        <img id="teaser" src="" alt="">
+        <div id="description"></div>
+    </div>
+</div>
+
+
+<!-- main -->
+    <div id="menu">
+        <div id="movie-data-wrapper">
+            <span id="movie-data-title"></span>&nbsp;<sup id="movie-data-age"></sup>
+            <div id="movie-data-time" class="number"></div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="logo">Кино<br><span class="number">Флакон </span>IVI</div>
+            </div>
+            <div class="col-8">
+                <div class="show-container">
+                    <div id="show-1">Сеанс <span class="number">1</span></div>
+                    <div id="show-2">Сеанс <span class="number">2</span></div>
+                </div>
+                <div class="clock">
+                    <div class="clock-1 time number">21:00</div>
+                    <div class="clock-2 time number">00:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-links-wrapper">
+        <a href="" class="menu-link">Программа</a>
+        <a href="" class="menu-link">Инфо</a>
+        <a href="curator.html" class="menu-link">Куратор</a>
+        <a href="" class="menu-link">Правила</a>
+        <a href="" class="menu-link">Партнеры</a>
+    </div>
+    <div class="main">
+        <div class="movie">
+            <div class="row">
+                <div class="col-4">
+                    <div class="fade-out"></div>
+                    <div class="date">
+                        <div class="date-wrap">
+                            <span class="number">24</span> Июля
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 slider-wrap">
+                    <div class="posters">
+                        <div class="movie-info-raw">
+                            <img class="poster poster-1" src="posters/paddington.jpg" alt="Приключения Паддингтона">
+                            <div class="movie-text">
+                                <span>Приключения Паддингтона</span>
+                                <span>[6+]</span>
+                                <span>21:00–23:00</span>
+                                <span>2019</span>
+                                <span>Комедия</span>
+                                <span>Великобритания</span>
+                                <span>Пол Кинг</span>
+                                <span>Английский</span>
+                                <span>Познакомьтесь, это медведь по имени Паддингтон из дремучего Перу. Он приехал в Лондон, чтобы обрести семью и стать настоящим английским джентльменом. На пути к этой цели его ожидают невероятные приключения, полные юмора и опасностей.</span>
+                            </div>
+                        </div>
+                        <div class="movie-info-raw">
+                            <img class="poster poster-2" src="posters/midsommar.jpg" alt="Солнцестояние">
+                            <div class="movie-text">
+                                <span>Солнцестояние</span>
+                                <span>[18+]</span>
+                                <span>00:00–2:00</span>
+                                <span>2019</span>
+                                <span>Драма</span>
+                                <span>США, Швеция</span>
+                                <span>Ари Астер</span>
+                                <span>Русский</span>
+                                <span>День летнего солнцестояния – древний праздник, который во всех культурах окутан мистическим ореолом.В отрезанном от цивилизованного мира шведском поселении в этот день проводятся уникальные обряды с многовековой традицией. Именно туда отправляется группа молодых американских студентов-антропологов, прихватив с собой девушку одного из них. Однако вскоре после прибытия друзья выясняют, что местные обряды далеко не безобидны.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="row">
+                <div class="col-4">
+                    <div class="fade-out"></div>
+                    <div class="date">
+                        <div class="date-wrap">
+                            <span class="number">25</span> Июля
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 slider-wrap">
+                    <div class="posters">
+                        <div class="movie-info-raw">
+                            <img class="poster poster-1" src="posters/cafe-society.jpg" alt="">
+                            <div class="movie-text">
+                                <span>Светская жизнь</span>
+                                <span>[12+]</span>
+                                <span>21:30–23:30</span>
+                                <span>2016</span>
+                                <span>Драма, комедия</span>
+                                <span>США</span>
+                                <span>Вуди Аллен</span>
+                                <span>Русский</span>
+                                <span>1930-е годы. Молодой человек приезжает из Нью-Йорка в Голливуд в надежде найти работу в киноиндустрии. В Лос-Анджелесе он влюбляется и обнаруживает себя в самом центре водоворота бурной светской жизни и событий, определивших дух того времени.</span>
+                            </div>
+                        </div>
+                        <img class="poster poster-2" src="posters/dolorygloria.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="row">
+                <div class="col-4">
+                    <div class="fade-out"></div>
+                    <div class="date">
+                        <div class="date-wrap">
+                            <span class="number">26</span> Июля
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="slider-wrap">
+                        <div class="posters">
+                            <div class="movie-info-raw">
+                                <img class="poster poster-1" src="posters/master.jpg" alt="">
+                                <div class="movie-text">
+                                    <span>Мастер</span>
+                                    <span>[18+]</span>
+                                    <span>21:30–23:30</span>
+                                    <span>2012</span>
+                                    <span>Драма</span>
+                                    <span>США</span>
+                                    <span>Пол Томас Андерсон</span>
+                                    <span>Русский</span>
+                                    <span>Демобилизованный моряк с загадочным прошлым не может найти места в послевоенной Америке. Он меняет одну работу за другой, пока случайно не знакомится с харизматичным создателем религиозного культа, известным писателем и философом. К удивлению приверженцев модного учения, их гуру делает агрессивного маргинала своим ближайшим помощником. По мере того как новая вера завоевывает поклонников, бывший бродяга начинает задаваться вопросами о том, во что он верит, и кем является его наставник на самом деле. Но некоторым тайнам лучше оставаться нераскрытыми…</span>
+                                </div>
+                            </div>
+                            <img class="poster poster-2" src="posters/climax.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="row">
+                <div class="col-4">
+                    <div class="fade-out"></div>
+                    <div class="date">
+                        <div class="date-wrap">
+                            <span class="number">25</span> Июля
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 slider-wrap">
+                    <div class="posters">
+                        <div class="movie-info-raw">
+                            <img class="poster poster-1" src="posters/cafe-society.jpg" alt="">
+                            <div class="movie-text">
+                                <span>Светская жизнь</span>
+                                <span>[12+]</span>
+                                <span>21:00–23:00</span>
+                                <span>2016</span>
+                                <span>Драма, комедия</span>
+                                <span>США</span>
+                                <span>Вуди Аллен</span>
+                                <span>Русский</span>
+                                <span>1930-е годы. Молодой человек приезжает из Нью-Йорка в Голливуд в надежде найти работу в киноиндустрии. В Лос-Анджелесе он влюбляется и обнаруживает себя в самом центре водоворота бурной светской жизни и событий, определивших дух того времени.</span>
+                            </div>
+                        </div>
+                        <img class="poster poster-2" src="posters/dolorygloria.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

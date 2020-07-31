@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'Favorit';
+    src: url('fonts/FavoritPro-Light.eot');
+    src: url('fonts/FavoritPro-Light.woff2') format('woff2'),
+        url('fonts/FavoritPro-Light.woff') format('woff'),
+        url('fonts/FavoritPro-Light.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Steinbeck-Italic';
+  src: url('fonts/Steinbeck-Italic.eot');
+  src: url('fonts/Steinbeck-Italic.woff2') format('woff2'),
+      url('fonts/Steinbeck-Italic.woff') format('woff'),
+      url('fonts/Steinbeck-Italic.ttf') format('truetype')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    box-sizing: border-box !important;   
+}
+
+
+html, body {
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Favorit';
+    background-color: black;
+    color: white;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+#menu {
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 10;
+    padding: 12px;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+
+#movie-data-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px;
+  background-color: black;
+  font-size: 38px;
+  line-height: 36px;
+  text-transform: uppercase;
+  z-index: 10;
+  display: none;
+}
+
+.logo {
+    font-size: 38px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.menu-links-wrapper {
+  position: fixed;
+  bottom: 12px;
+  width: 33.33%;
+  padding: 0 12px;
+  z-index: 2;
+  text-align: left;
+}
+
+.menu-links-wrapper .menu-link {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-links-wrapper .menu-link:hover {
+  font-family: 'Steinbeck-Italic';
+}
+
+.this-page:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  border: solid 1px white;
+  display: inline-block;
+}
+
+.number {
+    font-family: 'Steinbeck-Italic';
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.main .row {
+
+}
+
+[class*="col-"] {
+    float: left;
+    position: relative;
+  }
+
+  .show-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  [id*="show-"] {
+    cursor: pointer;
+    width: 50%;
+    padding-right: 12px;
+    text-transform: uppercase;
+  }
+
+  #show-2 {
+    pointer-events: none;
+  }
+
+  .clock {
+    font-size: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  [class*="clock-"] {
+    display: inline-block;
+    width: 50%;
+    padding-right: 12px;
+    font-size: 60px;
+    line-height: 48px;
+  }
+
+  .time {
+      transition: 0s;
+  }
+
+  .fade-out {
+      position: absolute;
+      width: 100%;
+      background-image: linear-gradient(to right, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+      height: 100%;
+      z-index: 1;
+  }
+
+  .date {
+    top: 96px;
+    position: sticky;
+    position: -webkit-sticky;
+    text-align: right;
+    margin: 0 12px 12px;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+.movie-text {
+  display: none;
+}
+
+.posters {
+    width: 100%;
+    height: 100%;
+}
+  
+  .posters img {
+      padding-right: 12px;
+      padding-bottom: 12px;
+      cursor: pointer;
+  }
+
+  [class*="poster-"] {
+    width: 50%;
+    float: left;
+  }
+
+
+
+
+
+
+/* POPUP */
+#popup {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  background-color: black;
+  display: none;
+  overflow-y: scroll;
+}
+
+.header {
+  padding: 12px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: black;
+  font-size: 38px;
+  line-height: 36px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.day {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+#age, #movie-data-age {
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: -5px;
+}
+
+
+#close-button {
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  width: 54px;
+  height: 54px;
+  float: right;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#close-button:before, #close-button:after {
+  position: absolute;
+  left: 27px;
+  content: ' ';
+  height: 54px;
+  width: 1px;
+  background-color: white;
+}
+
+#close-button:before {
+  transform: rotate(45deg);
+}
+
+#close-button:after {
+  transform: rotate(-45deg);
+}
+
+
+.movie-info-popup {
+  padding: 0 12px 12px;
+  margin-top: 96px;
+}
+
+.tags {
+  margin-bottom: 12px;
+}
+
+#director, #language {
+  text-align: right;
+}
+
+#director:before {
+  content: "Реж. ";
+}
+
+#language:before {
+  content: "Язык: ";
+}
+
+#teaser {
+  width: 100%;
+  display: none;
+}
+
+#description {
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+
+
+
+
+/* CURATOR */
+  .curator-list {
+      list-style-type: none;
+  }
+
+  .curator-name {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .curator-pic {
+      margin-top: 1rem;
+  }
+
+  .quote {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+
+
+
+  @media (max-width:900px) {
+    html, body {
+      overflow-x: hidden;
+    }
+    .logo div {
+      display: inline;
+    }
+    .posters {
+      width: 200%;
+      transition: 0.4s;
+    }
+    .clock {
+      font-size: 0;
+      display: inline-block;
+      white-space: nowrap;
+      width: 245px;
+      overflow: hidden;
+    }
+    .clock-1 {
+      margin-right: 2rem;
+    }
+    #show-2 {
+      opacity: 0.4;
+      pointer-events: all;
+    }
+  }
