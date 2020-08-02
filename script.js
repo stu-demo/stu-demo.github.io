@@ -34,15 +34,14 @@ window.onload = function () {
   var logo = document.getElementById('logo');
   var date = document.getElementsByClassName('date');
   var menulinks = document.getElementsByClassName('menu-link');
-  var padd = 12;
-  if (window.innerWidth < 768) {
-    padd = 9;
-  } else {
+  var d = date[0].clientHeight;
+  console.log(d);
+  if (window.innerWidth >= 768) {
     document.body.onscroll = function() {
-      var position = window.innerHeight-logo.offsetHeight-3*padd-date[0].clientHeight;
+      var position = window.innerHeight-logo.offsetHeight;
       var zerotoone = window.scrollY/(document.body.scrollHeight-window.innerHeight);
       for (i=0; i<menulinks.length; i++) {
-        menulinks[i].style.transform = 'translateY(' + (position + padd*(i-4))*zerotoone/4*(i-4) + 'px)';
+        menulinks[i].style.transform = 'translateY(' + (position + d*(i-4))*zerotoone/4*(i-4) + 'px)';
       }
     }
   }
@@ -103,7 +102,7 @@ window.onload = function () {
       var element = getMovie(touch);
       movieDataWrapper.style.zIndex = "10";
       movieDataWrapper.style.opacity = "1";
-      movieDataWrapper.style.transitionDelay = "0.5s";
+      movieDataWrapper.style.transitionDelay = "0.3s";
       var i = 0;
       while (element) {
         movieData[i].textContent = element.textContent;
