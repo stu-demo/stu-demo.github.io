@@ -49,7 +49,7 @@ window.onload = function () {
 
 
 
-  /*POPUP*/
+
   var popup = document.getElementById('popup');
   var title = document.getElementById('title');
   var age = document.getElementById('age');
@@ -63,32 +63,82 @@ window.onload = function () {
   var description = document.getElementById('description');
   var info = [title,age,movietime,year,genre,country,director,language,description];
   var close = document.getElementById('close-button');
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  var movieDataWrapper = document.getElementById('movie-data-wrapper');
+  var DataTitle = document.getElementById('movie-data-title');
+  var DataAge = document.getElementById('movie-data-age');
+  var DataTime = document.getElementById('movie-data-time');
+  var movieData = [DataTitle,DataAge, DataTime];
 
-  var showpopup = function(e) {
-  e.stopPropagation();
-  popup.style.display = "block";
-  if (window.innerWidth < 768) {
-    popup.style.height = window.innerHeight + 'px';
-    document.body.style.overflowY = 'hidden';
+
+  /*POSTER*/
+  var getMovie = function(e) {
+    if (e.target == '[object HTMLDivElement]') {
+      var el = e.target.children[1].children[0];
+    } else {
+      var el = e.target.nextElementSibling.children[0];
+    }
+    return el;
   }
-  for (var i=0; i < date.length; i++) {
-    date[i].style.opacity = '0';
-  }
-  var el = e.target;
-  //var el = e.currentTarget.children[1].children[0];
-  console.log(el);
-  if (el == '[object HTMLDivElement]') {
-    el = el.children[1].children[0];
+  if (window.innerWidth >= 768) {
+    var hover = function(e) {
+      movieDataWrapper.style.display = "block";
+      var element = e.target.children[0].nextElementSibling.children[0];
+      var i = 0;
+      while (element) {
+        movieData[i].textContent = element.textContent;
+        element = element.nextElementSibling;
+        i++;
+        if (i == 3) {
+          return false;
+        }
+      }
+    }
+    var mouseleave = function() {
+      movieDataWrapper.style.display = "none";
+    }
   } else {
-    el = el.nextElementSibling.children[0];
+    var movietouchstart = function(e) {
+      e.stopPropagation();
+      var touch = e.targetTouches[0];
+      var element = getMovie(touch);
+      movieDataWrapper.style.zIndex = "10";
+      movieDataWrapper.style.opacity = "1";
+      movieDataWrapper.style.transitionDelay = "0.02s";
+      var i = 0;
+      while (element) {
+        movieData[i].textContent = element.textContent;
+        element = element.nextElementSibling;
+        i++;
+        if (i == 3) {
+          return false;
+        }
+      }
+    }
+    var movietouchend = function(e) {
+      var touch = e.changedTouches[0];
+      var element = getMovie(touch);
+      movieDataWrapper.style.zIndex = "0";
+      movieDataWrapper.style.opacity = "0";
+      movieDataWrapper.style.transitionDelay = "0s";
+    }
   }
-  var i = 0;
-  while (el) {
-    info[i].textContent = el.textContent;
-    console.log(info[i].textContent);
-    el = el.nextElementSibling;
-    i++;
+
+  /*POPUP*/
+  var showpopup = function(e) {
+    popup.style.display = "block";
+    if (window.innerWidth < 768) {
+      popup.style.height = window.innerHeight + 'px';
+      document.body.style.overflowY = 'hidden';
+    }
+    for (var i=0; i < date.length; i++) {
+      date[i].style.opacity = '0';
+    }
+    var el = getMovie(e)
+    var i = 0;
+    while (el) {
+      info[i].textContent = el.textContent;
+      el = el.nextElementSibling;
+      i++;
     }
   }
   
@@ -102,50 +152,12 @@ window.onload = function () {
     }
   }
 
-  /*POSTER*/
-  if (window.innerWidth >= 768) {
-    var hover = function(e) {
-      document.getElementById('movie-data-wrapper').style.display = "block";
-      var element = e.target.children[0].nextElementSibling.children[0];
-      document.getElementById('movie-data-title').textContent = element.textContent;
-      document.getElementById('movie-data-age').textContent = element.nextElementSibling.textContent;
-      document.getElementById('movie-data-time').textContent = element.nextElementSibling.nextElementSibling.textContent;
-    }
-
-    var mouseleave = function() {
-      document.getElementById('movie-data-wrapper').style.display = "none";
-    }
-
-    for (var i=0; i<movie.length; i++) {
-      movie[i].addEventListener('mouseenter',hover);
-      movie[i].addEventListener('mouseleave',mouseleave);
-      movie[i].addEventListener('click',showpopup);
-    }
-  } else {
-    var movietouchstart = function(e) {
-      e.stopPropagation();
-      var touch = e.targetTouches[0];
-      if (touch.target == '[object HTMLDivElement]') {
-        var element = touch.target.children[1].children[0];
-      } else {
-        var element = touch.target.nextElementSibling.children[0];
-      }
-      document.getElementById('movie-data-wrapper').style.display = "block";
-      document.getElementById('movie-data-title').textContent = element.textContent;
-      document.getElementById('movie-data-age').textContent = element.nextElementSibling.textContent;
-      document.getElementById('movie-data-time').textContent = element.nextElementSibling.nextElementSibling.textContent;
-    }
-  
-    var movietouchend = function(e) {
-      document.getElementById('movie-data-wrapper').style.display = "none";
-    }
-  
-    for (var i=0; i<movie.length; i++) {
-      movie[i].addEventListener('touchstart',movietouchstart);
-      movie[i].addEventListener('touchend',movietouchend);
-      movie[i].addEventListener('click',showpopup);
-    }
+  for (var i=0; i<movie.length; i++) {
+    movie[i].addEventListener('mouseenter',hover);
+    movie[i].addEventListener('mouseleave',mouseleave);
+    movie[i].addEventListener('touchstart',movietouchstart);
+    movie[i].addEventListener('touchend',movietouchend);
+    movie[i].addEventListener('click',showpopup);
   }
-
-
+  
 };

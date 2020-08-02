@@ -393,10 +393,11 @@ footer a {
     }
 
     #movie-data-wrapper {
-      grid-area: 1 / 1 / 1 / 4;
       font-size: 21px;
       line-height: 20px;
-      padding-left: 12px;
+      display: block;
+      z-index: 0;
+      opacity: 0;
     }
 
     #movie-data-age {
