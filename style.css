@@ -66,6 +66,7 @@ header {
 
 .show-time-1 {
   grid-area: 1 / 2 / 1 / 3;
+  padding-left: 1px;
 }
 
 .show-time-2 {
@@ -86,18 +87,17 @@ header {
   margin-top: 6px;
   font-size: 57px;
   line-height: 48px;
-  transition: 0.3s;
 }
 
 #movie-data-wrapper {
-  grid-area: 1 / 1 / 1 / 4;
+  grid-area: 1 / 2 / 1 / 4;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   z-index: 10;
   font-size: 38px;
   line-height: 36px;
-  padding: 12px;
+  padding: 12px 12px 12px 1px;
   background-color: black;
   display: none;
 }
@@ -152,7 +152,7 @@ header {
 
 
 /* MOVIE */
-.movie-day {
+.movie-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -199,23 +199,18 @@ header {
 }
 
 .movie {
-  transition: 0.3s;
+  position: relative;
   display: table-cell;
   vertical-align: top;
   width: 50%;
   padding: 0 12px 12px 0;
-}
-
-.movie-1 {
-
-}
-
-.movie-2 {
-
+  transition: 0.3s;
 }
 
 .movie-text {
   display: none;
+  position: absolute;
+  top: 0;
 }
 
 
@@ -261,10 +256,13 @@ footer a {
   background-color: black;
   display: none;
   overflow-y: scroll;
+  margin-left: 33.33%;
 }
 
 .popup-header {
-  padding: 12px;
+  display: grid;
+  grid-template-columns: auto 42px;
+  padding: 12px 12px 12px 1px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -318,7 +316,7 @@ footer a {
 }
 
 .movie-info-popup {
-  padding: 0 12px 12px;
+  padding: 0 12px 12px 0;
   margin-top: 96px;
 }
 
@@ -394,6 +392,19 @@ footer a {
       height: 84px;
     }
 
+    #movie-data-wrapper {
+      grid-area: 1 / 1 / 1 / 4;
+      font-size: 21px;
+      line-height: 20px;
+      padding-left: 12px;
+    }
+
+    #movie-data-age {
+      font-size: 10px;
+      line-height: 10px;
+      margin-left: -2px;
+    }
+
     #logo {
       font-size: 21px;
       line-height: 20px;
@@ -421,6 +432,7 @@ footer a {
       margin-top: 4px;
       font-size: 50px;
       line-height: 48px;
+      transition: 0.3s;
     }
 
     .overflow-container {
@@ -451,15 +463,25 @@ footer a {
       grid-area: 3 / 2 / 3 / 5;
       text-align: left;
     }
+
+    #popup {
+      margin-left: 0;
+    }
     
     .popup-header {
       font-size: 21px;
       line-height: 20px;
+      padding-left: 12px;
+    }
+
+    .movie-info-popup {
+      padding-left: 12px;
     }
 
     #age {
       font-size: 10px;
       line-height: 10px;
+      margin-left: -2px;
     }
 
     .day {
@@ -468,6 +490,7 @@ footer a {
     }
 
     .tags {
+      grid-template-columns: 1fr 2fr 2fr;
       font-size: 12px;
       line-height: 12px;
     }
