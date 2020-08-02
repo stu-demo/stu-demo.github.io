@@ -103,7 +103,7 @@ window.onload = function () {
       var element = getMovie(touch);
       movieDataWrapper.style.zIndex = "10";
       movieDataWrapper.style.opacity = "1";
-      movieDataWrapper.style.transitionDelay = "0.02s";
+      movieDataWrapper.style.transitionDelay = "0.5s";
       var i = 0;
       while (element) {
         movieData[i].textContent = element.textContent;
