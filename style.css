@@ -262,6 +262,7 @@ footer a {
 .popup-header {
   display: grid;
   grid-template-columns: auto 42px;
+  grid-template-rows: 30px auto;
   padding: 12px 12px 12px 1px;
   position: sticky;
   position: -webkit-sticky;
@@ -271,6 +272,10 @@ footer a {
   line-height: 36px;
   text-transform: uppercase;
   z-index: 1;
+}
+
+.grid-full {
+  grid-area: 2 / 1 / 2 / 3;
 }
 
 .day {
@@ -288,12 +293,7 @@ footer a {
 
 
 #close-button {
-  position: absolute;
-  right: 6px;
-  top: 6px;
-  width: 54px;
-  height: 54px;
-  float: right;
+  position: relative;
   cursor: pointer;
   display: inline-block;
 }
@@ -301,8 +301,9 @@ footer a {
 #close-button:before, #close-button:after {
   position: absolute;
   left: 27px;
+  top: -6px;
   content: ' ';
-  height: 54px;
+  height: 42px;
   width: 1px;
   background-color: white;
 }
@@ -470,9 +471,16 @@ footer a {
     }
     
     .popup-header {
+      grid-template-rows: 20px auto;
       font-size: 21px;
       line-height: 20px;
       padding-left: 12px;
+    }
+
+    #close-button:before, #close-button:after {
+      left: 32px;
+      top: -4px;
+      height: 28px;
     }
 
     .movie-info-popup {
@@ -488,6 +496,7 @@ footer a {
     .day {
       font-size: 14px;
       line-height: 14px;
+      margin-bottom: 6px;
     }
 
     .tags {
