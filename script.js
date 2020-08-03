@@ -127,7 +127,7 @@ window.onload = function () {
     popup.style.display = "block";
     if (window.innerWidth < 768) {
       popup.style.height = window.innerHeight + 'px';
-      document.body.style.overflowY = 'hidden';
+      document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '0';
@@ -145,7 +145,7 @@ window.onload = function () {
     popup.scrollTop = 0;
     popup.style.display = "none";
     if (window.innerWidth < 768) {
-      document.body.style.overflowY = 'auto';
+      document.getElementsByTagName('html')[0].style.overflowY = 'auto';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
