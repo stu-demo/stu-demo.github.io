@@ -59,6 +59,7 @@ window.onload = function () {
   var language = document.getElementById('language');
   var teaser = document.getElementById('teaser');
   var description = document.getElementById('description');
+  var buybutton = document.getElementsByClassName('button-buy')[0];
   var info = [title,age,movietime,year,genre,country,director,language,description];
   var close = document.getElementById('close-button');
   var movieDataWrapper = document.getElementById('movie-data-wrapper');
@@ -128,18 +129,21 @@ window.onload = function () {
     if (window.innerWidth < 768) {
       popup.style.height = window.innerHeight + 'px';
       document.body.style.overflowY = 'hidden';
-      document.getElementsByTagName('html')[0].style.overflowY = 'hidden';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '0';
     }
     var el = getMovie(e)
     var i = 0;
+    var code = el.closest('.movie-text').nextElementSibling.textContent;
+    console.log(code);
     while (el) {
       info[i].textContent = el.textContent;
       el = el.nextElementSibling;
       i++;
     }
+    var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
+    buybutton.setAttribute('onclick',onclicklink);
   }
   
   close.onclick = function() {
@@ -147,7 +151,6 @@ window.onload = function () {
     popup.style.display = "none";
     if (window.innerWidth < 768) {
       document.body.style.overflowY = 'auto';
-      document.getElementsByTagName('html')[0].style.overflowY = 'auto';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
@@ -155,7 +158,6 @@ window.onload = function () {
   }
 
 /*
-  var buybutton = document.getElementsByClassName('button-buy');
   var buyticket = function(e){
     var posX = e.clientX;
     var posY = e.clientY;

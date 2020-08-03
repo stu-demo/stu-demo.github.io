@@ -225,6 +225,10 @@ header {
   top: 0;
 }
 
+.button-code {
+  display: none;
+}
+
 
 /* POPUP */
 #popup {
