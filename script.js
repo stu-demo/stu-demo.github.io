@@ -31,9 +31,9 @@ window.onload = function () {
 
 
   /*MENU ANIMATION*/
+  var logo = document.getElementById('logo');
   var menulinks = document.getElementsByClassName('menu-link');
   var d = menulinks[0].clientHeight+12;
-  console.log(d);
   console.log(d);
   if (window.innerWidth >= 768) {
     document.body.onscroll = function() {
@@ -122,6 +122,7 @@ window.onload = function () {
   }
 
   /*POPUP*/
+  var date = document.getElementsByClassName('date');
   var showpopup = function(e) {
     popup.style.display = "block";
     if (window.innerWidth < 768) {
@@ -168,5 +169,5 @@ window.onload = function () {
     movie[i].addEventListener('touchend',movietouchend);
     movie[i].addEventListener('click',showpopup);
   }
-  popup.addEventListener('mousemove',buyticket);
+  //popup.addEventListener('mousemove',buyticket);
 };
