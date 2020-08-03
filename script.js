@@ -142,6 +142,7 @@ window.onload = function () {
   }
   
   close.onclick = function() {
+    popup.scrollTop = 0;
     popup.style.display = "none";
     if (window.innerWidth < 768) {
       document.body.style.overflowY = 'auto';
@@ -151,6 +152,16 @@ window.onload = function () {
     }
   }
 
+/*
+  var buybutton = document.getElementsByClassName('button-buy');
+  var buyticket = function(e){
+    var posX = e.clientX;
+    var posY = e.clientY;
+    buybutton[0].style.left = e.clientX + 'px';
+    buybutton[0].style.top = e.clientY + 'px';
+  };
+*/
+
   for (var i=0; i<movie.length; i++) {
     movie[i].addEventListener('mouseenter',hover);
     movie[i].addEventListener('mouseleave',mouseleave);
@@ -158,5 +169,5 @@ window.onload = function () {
     movie[i].addEventListener('touchend',movietouchend);
     movie[i].addEventListener('click',showpopup);
   }
-  
+  popup.addEventListener('mousemove',buyticket);
 };

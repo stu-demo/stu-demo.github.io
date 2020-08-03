@@ -231,7 +231,6 @@ header {
   position: fixed;
   top: 0;
   z-index: 20;
-  background-color: black;
   display: none;
   overflow-y: scroll;
   margin-left: 33.33%;
@@ -294,12 +293,13 @@ header {
 
 .movie-info-popup {
   padding: 0 12px 12px 0;
-  margin-top: 96px;
+  padding-top: 96px;
+  background-color: black;
 }
 
 .tags {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 2fr 3fr 3fr;
   margin-bottom: 12px;
   text-transform: none;
 }
@@ -328,8 +328,21 @@ header {
   text-transform: none;
 }
 
-
-
+.button-buy {
+  position: sticky;
+  bottom: 0;
+  font-family: 'Steinbeck-Italic';
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  padding: 18px 0;
+  border: none;
+  border-top: dashed 1px white;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  outline: none;
+}
 
 /* INFO */
 .info-wrapper {
@@ -378,6 +391,17 @@ header {
     line-height: 1.5rem;
   }
 
+
+/* PARTNERS */
+.partner-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 33.33%;
+}
+
+.partner-wrapper img {
+  padding: 0 12px 12px 0;
+}
 
 
 /* FOOTER */
@@ -525,6 +549,7 @@ footer a {
   }
 
   .movie-info-popup {
+    padding-top: 48px;
     padding-left: 12px;
   }
 
@@ -541,7 +566,7 @@ footer a {
   }
 
   .tags {
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 3fr 3fr;
     font-size: 12px;
     line-height: 12px;
   }
@@ -578,5 +603,12 @@ footer a {
   
   .info-list-item > div:first-child {
     margin-bottom: 2px;
+  }
+
+
+  /* PARTNER MOBILE */
+  .partner-wrapper {
+    grid-template-columns: 1fr;
+    margin-left: 33.33%;
   }
 }
