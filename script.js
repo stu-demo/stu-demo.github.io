@@ -31,10 +31,9 @@ window.onload = function () {
 
 
   /*MENU ANIMATION*/
-  var logo = document.getElementById('logo');
-  var date = document.getElementsByClassName('date');
   var menulinks = document.getElementsByClassName('menu-link');
-  var d = date[0].clientHeight;
+  var d = menulinks[0].clientHeight+12;
+  console.log(d);
   console.log(d);
   if (window.innerWidth >= 768) {
     document.body.onscroll = function() {

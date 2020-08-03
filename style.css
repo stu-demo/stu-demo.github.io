@@ -124,7 +124,7 @@ header {
 /* MENU */
 .menu-links-wrapper {
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   bottom: 0;
   width: 33.33%;
   padding: 12px;
@@ -576,7 +576,7 @@ footer a {
   .info-wrapper .overflow-container {
     overflow-x: scroll;
     overflow-y: hidden;
-    z-index: 3;
+    z-index: 5;
   }
 
   .info-wrapper .slider {
