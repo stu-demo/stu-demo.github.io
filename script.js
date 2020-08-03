@@ -124,6 +124,7 @@ window.onload = function () {
 
   /*POPUP*/
   var date = document.getElementsByClassName('date');
+  var day = document.getElementsByClassName('day')[0];
   var showpopup = function(e) {
     popup.style.display = "block";
     if (window.innerWidth < 768) {
@@ -136,7 +137,7 @@ window.onload = function () {
     var el = getMovie(e)
     var i = 0;
     var code = el.closest('.movie-text').nextElementSibling.textContent;
-    console.log(code);
+    var x = el.closest('.movie-text').closest('.movie').closest('.slider').closest('.overflow-container').previousElementSibling;
     while (el) {
       info[i].textContent = el.textContent;
       el = el.nextElementSibling;
@@ -144,6 +145,7 @@ window.onload = function () {
     }
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
+    day.innerHTML = x.innerHTML;
   }
   
   close.onclick = function() {
@@ -171,7 +173,9 @@ window.onload = function () {
     movie[i].addEventListener('mouseleave',mouseleave);
     movie[i].addEventListener('touchstart',movietouchstart);
     movie[i].addEventListener('touchend',movietouchend);
-    movie[i].addEventListener('click',showpopup);
+    if (!movie[i].classList.contains('coming-soon')) {
+      movie[i].addEventListener('click',showpopup);
+    }
   }
   //popup.addEventListener('mousemove',buyticket);
 };

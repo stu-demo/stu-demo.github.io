@@ -219,6 +219,10 @@ header {
   cursor: pointer;
 }
 
+.coming-soon {
+  cursor: progress;
+}
+
 .movie-text {
   display: none;
   position: absolute;
