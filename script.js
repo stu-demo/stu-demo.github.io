@@ -126,12 +126,14 @@ window.onload = function () {
   }
 
   /*POPUP*/
+  var scrtop;
   var date = document.getElementsByClassName('date');
   var day = document.getElementsByClassName('day')[0];
   var movieinfo = document.getElementsByClassName('movie-info-popup')[0];
   var showpopup = function(e) {
     popup.style.display = "block";
-    var el = getMovie(e)
+    var el = getMovie(e);
+    scrtop = window.scrollY;
     var i = 0;
     var code = el.closest('.movie-text').nextElementSibling.textContent;
     var x = el.closest('.movie-text').closest('.movie').closest('.slider').closest('.overflow-container').previousElementSibling;
@@ -143,12 +145,16 @@ window.onload = function () {
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
-    if (popup.scrollHeight >= window.innerHeight) {
+    var diff = window.innerHeight - popup.scrollHeight;
+    console.log(scrtop);
+    if (popup.scrollHeight >= window.innerHeight-96) {
       popup.style.height = window.innerHeight + 'px';
-      buybutton.style.position = 'fixed';
-      movieinfo.style.padding = '48px 12px 72px'; 
+      if (window.innerWidth <= 768) {
+        buybutton.style.position = 'fixed';
+        movieinfo.style.padding = '48px 12px 72px';
+        document.body.style.position = 'fixed';
+      } 
       document.body.style.overflowY = 'hidden';
-      document.body.style.position = 'fixed';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '0';
@@ -156,13 +162,14 @@ window.onload = function () {
   }
   
   close.onclick = function() {
-    popup.scrollTop = 0;
+    //popup.scrollTop = 0;
     popup.style.height = 'auto';
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
     movieinfo.style.padding = '48px 12px 12px'; 
     document.body.style.overflowY = 'auto';
     document.body.style.position = 'relative';
+    window.scrollBy(0,scrtop);
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
     }
