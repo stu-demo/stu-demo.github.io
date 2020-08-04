@@ -21,7 +21,6 @@ window.onload = function () {
   show2.onclick = function() {
     show2.style.opacity = '1';
     show1.style.opacity = '0.4';
-    console.log(show2.nextElementSibling.textContent);
     show1.nextElementSibling.textContent = '00:00';
     for (i=0; i<movie.length; i++) {
       movie[i].style.transform = 'translateX(-100%)';
@@ -37,7 +36,6 @@ window.onload = function () {
   var logo = document.getElementById('logo');
   var menulinks = document.getElementsByClassName('menu-link');
   var d = menulinks[0].clientHeight+12;
-  console.log(d);
   if (window.innerWidth >= 768) {
     document.body.onscroll = function() {
       var position = window.innerHeight-logo.offsetHeight;
@@ -127,6 +125,7 @@ window.onload = function () {
 
   /*POPUP*/
   var scrtop;
+  var wh = window.innerHeight;
   var date = document.getElementsByClassName('date');
   var day = document.getElementsByClassName('day')[0];
   var movieinfo = document.getElementsByClassName('movie-info-popup')[0];
@@ -145,12 +144,17 @@ window.onload = function () {
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
+
+    var wh2 = window.innerHeight;
     var diff = window.innerHeight - popup.scrollHeight;
-    if (popup.scrollHeight >= window.innerHeight-204) {
+    if (popup.scrollHeight >= window.innerHeight) {
       popup.style.height = window.innerHeight + 'px';
       if (window.innerWidth <= 768) {
         buybutton.style.position = 'fixed';
         movieinfo.style.padding = '48px 12px 72px';
+        if (wh != wh2) {
+          movieinfo.style.padding = '48px 12px ' + (wh2-wh+72) + 'px';
+        }
         document.body.style.position = 'fixed';
       } 
       document.body.style.overflowY = 'hidden';
@@ -168,7 +172,7 @@ window.onload = function () {
     document.body.style.overflowY = 'auto';
     document.body.style.position = 'relative';
     var scrtop2 = window.scrollY;
-    if (scrtop2 != scrtop) {
+    if ((scrtop2 != scrtop) && (scrtop2 != 0)) {
       scrtop = scrtop2;
     }
     window.scrollTo(0,scrtop);
