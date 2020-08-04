@@ -724,8 +724,12 @@ footer a {
 
   /* RULES MOBILE */ 
   .qa-list {
-    font-size: 18px;
-    line-height: 18px;
-    margin-top: -8px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: -6px;
+  }
+
+  .answer {
+    margin-top: 14px;
   }
 }
