@@ -125,6 +125,7 @@ window.onload = function () {
   /*POPUP*/
   var date = document.getElementsByClassName('date');
   var day = document.getElementsByClassName('day')[0];
+  var movieinfo = document.getElementsByClassName('movie-info-popup')[0];
   var showpopup = function(e) {
     popup.style.display = "block";
     var el = getMovie(e)
@@ -141,6 +142,8 @@ window.onload = function () {
     day.innerHTML = x.innerHTML;
     if (popup.scrollHeight >= window.innerHeight) {
       popup.style.height = window.innerHeight + 'px';
+      buybutton.style.position = 'fixed';
+      movieinfo.style.height =  window.innerHeight + 'px';
       document.body.style.overflowY = 'hidden';
     }
     for (var i=0; i < date.length; i++) {
@@ -151,6 +154,7 @@ window.onload = function () {
   close.onclick = function() {
     popup.scrollTop = 0;
     popup.style.display = "none";
+    buybutton.style.position = 'sticky';
     document.body.style.overflowY = 'auto';
     popup.style.height = 'auto';
     for (var i=0; i < date.length; i++) {

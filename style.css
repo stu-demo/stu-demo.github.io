@@ -243,6 +243,7 @@ header {
   display: none;
   overflow-y: scroll;
   margin-left: 33.33%;
+  background-color: black;
 }
 
 .popup-header {
@@ -723,6 +724,10 @@ footer a {
   }
 
   /* RULES MOBILE */ 
+  .rules-wrapper{
+    margin-bottom: 6px;
+  }
+
   .qa-list {
     font-size: 14px;
     line-height: 14px;
