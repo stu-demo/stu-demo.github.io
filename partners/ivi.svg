@@ -1,17 +1,25 @@
-<svg width="802" height="455" viewBox="0 0 802 455" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M109.204 234.573L0.0605469 172.016V297.131L109.204 234.573Z" fill="white"/>
-<path d="M109.204 391.631L0.0605469 329.073V454.189L109.204 391.631Z" fill="white"/>
-<path d="M6.71094 313.102L115.854 250.544V375.66L6.71094 313.102Z" fill="white"/>
-<path d="M794.659 234.573L685.516 172.016V297.131L794.659 234.573Z" fill="white"/>
-<path d="M794.659 391.631L685.516 329.073V454.189L794.659 391.631Z" fill="white"/>
-<path d="M692.141 313.102L801.284 250.544V375.66L692.141 313.102Z" fill="white"/>
-<path d="M473.861 434.221L536.419 325.078H409.973L473.861 434.221Z" fill="white"/>
-<path d="M316.809 434.221L379.366 325.078H252.92L316.809 434.221Z" fill="white"/>
-<path d="M395.355 331.735L457.913 440.878H331.467L395.355 331.735Z" fill="white"/>
-<path d="M551.075 302.451L613.633 193.308H488.518L551.075 302.451Z" fill="white"/>
-<path d="M472.53 199.963L535.088 309.106H409.973L472.53 199.963Z" fill="white"/>
-<path d="M238.278 302.451L175.721 193.308H300.836L238.278 302.451Z" fill="white"/>
-<path d="M316.823 199.963L254.266 309.106H379.381L316.823 199.963Z" fill="white"/>
-<path d="M109.204 62.868L0.0605469 0.31031V126.757L109.204 64.199V62.868Z" fill="white"/>
-<path d="M794.659 62.8676L685.516 0.309967V126.756L794.659 64.1986V62.8676Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="134px" viewBox="0 0 234 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <g id="Final-concept" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-13" transform="translate(-130.000000, -84.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(130.017590, 84.090159)">
+                <polygon id="Path" points="31.7087588 68.1391359 1.36779477e-13 49.9434357 1.36779477e-13 86.335127"></polygon>
+                <polygon id="Path" points="31.7087588 113.821958 1.36779477e-13 95.6259667 1.36779477e-13 132.017949"></polygon>
+                <polygon id="Path" points="1.93209675 90.9805468 33.6407414 72.7845557 33.6407414 109.176538"></polygon>
+                <polygon id="Path" points="230.849675 68.1391359 199.141048 49.9434357 199.141048 86.335127"></polygon>
+                <polygon id="Path" points="230.849675 113.821958 199.141048 95.6259667 199.141048 132.017949"></polygon>
+                <polygon id="Path" points="201.065768 90.9805468 232.774395 72.7845557 232.774395 109.176538"></polygon>
+                <polygon id="Path" points="137.650256 126.209938 155.824837 94.4639573 119.089279 94.4639573"></polygon>
+                <polygon id="Path" points="92.0229296 126.209938 110.19722 94.4639573 73.4616616 94.4639573"></polygon>
+                <polygon id="Path" points="114.842403 96.4002518 133.016985 128.146232 96.2814259 128.146232"></polygon>
+                <polygon id="Path" points="160.082753 87.8825338 178.257334 56.1365531 141.908462 56.1365531"></polygon>
+                <polygon id="Path" points="137.263569 58.0722659 155.43815 89.8182466 119.089279 89.8182466"></polygon>
+                <polygon id="Path" points="69.2078137 87.8825338 51.0335232 56.1365531 87.3823947 56.1365531"></polygon>
+                <polygon id="Path" points="92.026997 58.0722659 73.8527064 89.8182466 110.201578 89.8182466"></polygon>
+                <polygon id="Path" points="31.7087588 18.1960007 1.36779477e-13 9.97670153e-05 1.36779477e-13 36.7791344 31.7087588 18.5831433"></polygon>
+                <polygon id="Path" points="230.849675 18.1958844 199.141048 7.10542736e-15 199.141048 36.7788435 230.849675 18.5830269"></polygon>
+            </g>
+        </g>
+    </g>
 </svg>

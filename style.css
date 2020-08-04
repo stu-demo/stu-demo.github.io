@@ -431,13 +431,19 @@ header {
 /* PARTNERS */
 .partner-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4,1fr);
   margin-left: 33.33%;
+  margin-bottom: 24px;
+}
+
+.partner-wrapper:last-of-type {
+  margin-bottom: 0;
 }
 
 .partner-wrapper img {
-  padding: 0 12px 12px 0;
+  padding: 0 24px 12px 0;
 }
+
 
 
 /* RULES */
@@ -709,6 +715,10 @@ footer a {
   /* PARTNER MOBILE */
   .partner-wrapper {
     grid-template-columns: 1fr;
-    margin-left: 33.33%;
+    margin-bottom: 0px;
+  }
+
+  .partner-wrapper img {
+    padding: 0 12px 24px 0;
   }
 }
