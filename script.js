@@ -127,13 +127,6 @@ window.onload = function () {
   var day = document.getElementsByClassName('day')[0];
   var showpopup = function(e) {
     popup.style.display = "block";
-    if (window.innerWidth < 768) {
-      popup.style.height = window.innerHeight + 'px';
-      document.body.style.overflowY = 'hidden';
-    }
-    for (var i=0; i < date.length; i++) {
-      date[i].style.opacity = '0';
-    }
     var el = getMovie(e)
     var i = 0;
     var code = el.closest('.movie-text').nextElementSibling.textContent;
@@ -146,14 +139,20 @@ window.onload = function () {
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
+    if (popup.scrollHeight >= window.innerHeight) {
+      popup.style.height = window.innerHeight + 'px';
+      document.body.style.overflowY = 'hidden';
+    }
+    for (var i=0; i < date.length; i++) {
+      date[i].style.opacity = '0';
+    }
   }
   
   close.onclick = function() {
     popup.scrollTop = 0;
     popup.style.display = "none";
-    if (window.innerWidth < 768) {
-      document.body.style.overflowY = 'auto';
-    }
+    document.body.style.overflowY = 'auto';
+    popup.style.height = 'auto';
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
     }
