@@ -155,6 +155,7 @@ window.onload = function () {
     popup.scrollTop = 0;
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
+    movieinfo.style.padding = '48px 12px 12px'; 
     document.body.style.overflowY = 'auto';
     popup.style.height = 'auto';
     for (var i=0; i < date.length; i++) {
