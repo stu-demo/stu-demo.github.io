@@ -142,8 +142,8 @@ window.onload = function () {
     day.innerHTML = x.innerHTML;
     if (popup.scrollHeight >= window.innerHeight) {
       popup.style.height = window.innerHeight + 'px';
-      //buybutton.style.position = 'fixed';
-      //movieinfo.style.height =  window.innerHeight + 'px';
+      buybutton.style.position = 'fixed';
+      movieinfo.style.padding = '48px 12px 72px'; 
       document.body.style.overflowY = 'hidden';
     }
     for (var i=0; i < date.length; i++) {

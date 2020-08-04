@@ -241,7 +241,7 @@ header {
   top: 0;
   z-index: 20;
   display: none;
-  overflow-y: scroll;
+  overflow-y: auto;
   margin-left: 33.33%;
   background-color: black;
 }
