@@ -146,8 +146,7 @@ window.onload = function () {
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
     var diff = window.innerHeight - popup.scrollHeight;
-    console.log(scrtop);
-    if (popup.scrollHeight >= window.innerHeight-96) {
+    if (popup.scrollHeight >= window.innerHeight-132) {
       popup.style.height = window.innerHeight + 'px';
       if (window.innerWidth <= 768) {
         buybutton.style.position = 'fixed';
@@ -162,14 +161,17 @@ window.onload = function () {
   }
   
   close.onclick = function() {
-    //popup.scrollTop = 0;
     popup.style.height = 'auto';
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
     movieinfo.style.padding = '48px 12px 12px'; 
     document.body.style.overflowY = 'auto';
     document.body.style.position = 'relative';
-    window.scrollBy(0,scrtop);
+    var scrtop2 = window.scrollY;
+    if (scrtop2 != scrtop) {
+      scrtop = scrtop2;
+    }
+    window.scrollTo(0,scrtop);
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
     }
