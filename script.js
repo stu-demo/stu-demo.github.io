@@ -9,6 +9,7 @@ window.onload = function () {
   show1.onclick = function() {
     show2.style.opacity = '0.4';
     show1.style.opacity = '1';
+    show1.nextElementSibling.textContent = '21:00';
     for (i=0; i<movie.length; i++) {
       movie[i].style.transform = 'translateX(0%)';
     }
@@ -20,6 +21,8 @@ window.onload = function () {
   show2.onclick = function() {
     show2.style.opacity = '1';
     show1.style.opacity = '0.4';
+    console.log(show2.nextElementSibling.textContent);
+    show1.nextElementSibling.textContent = '00:00';
     for (i=0; i<movie.length; i++) {
       movie[i].style.transform = 'translateX(-100%)';
     }
