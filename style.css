@@ -459,6 +459,8 @@ header {
 
 .qa-list {
   margin-top: -10px;
+  font-size: 23px;
+  line-height: 24px;
 }
 
 .qa-item {
@@ -467,8 +469,6 @@ header {
   margin-right: 12px;
   cursor: pointer;
   text-transform: none;
-  font-size: 23px;
-  line-height: 24px;
 }
 
 .qa-item:hover {
@@ -720,5 +720,12 @@ footer a {
 
   .partner-wrapper img {
     padding: 0 12px 24px 0;
+  }
+
+  /* RULES MOBILE */ 
+  .qa-list {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: -8px;
   }
 }
