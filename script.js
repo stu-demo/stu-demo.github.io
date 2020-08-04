@@ -140,7 +140,7 @@ window.onload = function () {
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
-    if (popup.scrollHeight >= window.innerHeight) {
+    if (popup.scrollHeight >= window.innerHeight-60) {
       popup.style.height = window.innerHeight + 'px';
       buybutton.style.position = 'fixed';
       movieinfo.style.padding = '48px 12px 72px'; 
@@ -153,11 +153,11 @@ window.onload = function () {
   
   close.onclick = function() {
     popup.scrollTop = 0;
+    popup.style.height = 'auto';
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
     movieinfo.style.padding = '48px 12px 12px'; 
     document.body.style.overflowY = 'auto';
-    popup.style.height = 'auto';
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
     }
