@@ -140,7 +140,7 @@ window.onload = function () {
     var onclicklink = 'ticketsteam.run(\'' + code + '\', \'https://api.tickets.yandex.net/widget\'' + ');return false;';
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
-    if (popup.scrollHeight >= window.innerHeight-60) {
+    if (popup.scrollHeight >= window.innerHeight-120) {
       popup.style.height = window.innerHeight + 'px';
       buybutton.style.position = 'fixed';
       movieinfo.style.padding = '48px 12px 72px'; 
