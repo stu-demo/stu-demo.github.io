@@ -148,6 +148,7 @@ window.onload = function () {
       buybutton.style.position = 'fixed';
       movieinfo.style.padding = '48px 12px 72px'; 
       document.body.style.overflowY = 'hidden';
+      document.body.style.position = 'fixed';
     }
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '0';
@@ -161,6 +162,7 @@ window.onload = function () {
     buybutton.style.position = 'sticky';
     movieinfo.style.padding = '48px 12px 12px'; 
     document.body.style.overflowY = 'auto';
+    document.body.style.position = 'relative';
     for (var i=0; i < date.length; i++) {
       date[i].style.opacity = '1';
     }
