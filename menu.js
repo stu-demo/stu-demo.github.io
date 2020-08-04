@@ -13,5 +13,23 @@ window.onload = function () {
         }
       }
     }
+
+    var qa = document.getElementsByClassName('qa-item');
+    var answer = function(e){
+        var el = e.target.closest('.qa-item');
+        console.log(el);
+        if (el.classList.contains('qa-open')) {
+            el.classList.remove('qa-open');
+        } else {
+            for (var i=0; i < qa.length; i++) {
+                qa[i].classList.remove('qa-open');
+            }
+            el.classList.add('qa-open');
+        }
+    }
+
+    for (var i=0; i < qa.length; i++) {
+        qa[i].addEventListener('click', answer);
+    }
     
   };
