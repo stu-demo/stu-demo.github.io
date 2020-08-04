@@ -146,7 +146,7 @@ window.onload = function () {
     buybutton.setAttribute('onclick',onclicklink);
     day.innerHTML = x.innerHTML;
     var diff = window.innerHeight - popup.scrollHeight;
-    if (popup.scrollHeight >= window.innerHeight-132) {
+    if (popup.scrollHeight >= window.innerHeight-204) {
       popup.style.height = window.innerHeight + 'px';
       if (window.innerWidth <= 768) {
         buybutton.style.position = 'fixed';
