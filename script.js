@@ -147,7 +147,7 @@ window.onload = function () {
 
     var wh2 = window.innerHeight;
     var diff = window.innerHeight - popup.scrollHeight;
-    if (popup.scrollHeight >= window.innerHeight) {
+    if (popup.scrollHeight >= window.innerHeight-72) {
       popup.style.height = window.innerHeight + 'px';
       if (window.innerWidth <= 768) {
         buybutton.style.position = 'fixed';
