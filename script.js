@@ -151,9 +151,9 @@ window.onload = function () {
       popup.style.height = window.innerHeight + 'px';
       if (window.innerWidth <= 768) {
         buybutton.style.position = 'fixed';
-        movieinfo.style.padding = '48px 12px 72px';
+        movieinfo.style.paddingBottom = '72px';
         if (wh != wh2) {
-          movieinfo.style.paddingTop = (wh2-wh+72) + 'px';
+          movieinfo.style.paddingBottom = (wh2-wh+72) + 'px';
         }
         document.body.style.position = 'fixed';
       } 
@@ -168,7 +168,7 @@ window.onload = function () {
     popup.style.height = 'auto';
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
-    movieinfo.style.paddingTop = '48px'; 
+    movieinfo.style.paddingBottom = '12px'; 
     document.body.style.overflowY = 'auto';
     document.body.style.position = 'relative';
     var scrtop2 = window.scrollY;
