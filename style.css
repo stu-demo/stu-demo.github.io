@@ -42,6 +42,11 @@ body::-webkit-scrollbar{ display: none; }
 body { overflow: -moz-scrollbars-none; }
 body { -ms-overflow-style: none; }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 a:hover {
   font-family: 'Steinbeck-Italic';
 }
@@ -74,8 +79,6 @@ header {
   padding: 12px;
   background-color: black;
   display: block;
-  text-decoration: none;
-  color: white;
 }
 
 #logo:hover {
@@ -135,8 +138,6 @@ header {
 .menu-links-wrapper .menu-link {
   position: relative;
   width: fit-content;
-  color: white;
-  text-decoration: none;
   background-color: black;
 }
 
@@ -285,8 +286,7 @@ header {
 }
 
 .movie-info-popup {
-  padding: 0 12px 12px 0;
-  padding-top: 96px;
+  padding: 96px 12px 12px 0;
   background-color: black;
 }
 
@@ -432,7 +432,7 @@ header {
 /* PARTNERS */
 .partner-wrapper {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(2,1fr);
   margin-left: 33.33%;
   margin-bottom: 24px;
 }
@@ -459,24 +459,22 @@ header {
 }
 
 .qa-list {
-  margin-top: -10px;
+  margin-top: -9px;
   font-size: 23px;
   line-height: 24px;
 }
 
 .qa-item {
-  border-bottom: solid 1px white;
-  padding: 6px 0;
+  border-bottom: solid 1px #4c4c4c;
+  padding: 5px 0 7px;
   margin-right: 12px;
   cursor: pointer;
   text-transform: none;
 }
 
-.qa-item:hover {
-  font-family: 'Steinbeck-Italic';
+.qa-item:hover .question:after{
+  content: '+';
 }
-
-
 
 .question {
   display: grid;
@@ -491,12 +489,20 @@ header {
 
 .answer {
   text-transform: none;
-  margin: 12px 0 6px;
+  margin: 18px 0;
   display: none;
 }
 
-.qa-item.qa-open {
+.qa-item.qa-open .question{
   font-family: 'Steinbeck-Italic';
+  font-size: 18px;
+  line-height: 18px;
+  padding-top: 4px;
+}
+
+.qa-item.qa-open .question:after{
+  align-self: start;
+  content: '-';
 }
 
 .qa-open .answer{
@@ -515,11 +521,6 @@ footer {
 
 footer div {
   padding: 0 12px 12px 0;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
 }
 
 .contacts {
@@ -734,7 +735,14 @@ footer a {
     margin-top: -6px;
   }
 
+  .qa-item.qa-open .question{
+    font-family: 'Steinbeck-Italic';
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 2px;
+  }
+
   .answer {
-    margin-top: 14px;
+    margin: 14px 0 12px;
   }
 }

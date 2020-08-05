@@ -35,7 +35,7 @@ window.onload = function () {
   /*MENU ANIMATION*/
   var logo = document.getElementById('logo');
   var menulinks = document.getElementsByClassName('menu-link');
-  var d = menulinks[0].clientHeight+12;
+  var d = menulinks[0].clientHeight+7;
   if (window.innerWidth >= 768) {
     document.body.onscroll = function() {
       var position = window.innerHeight-logo.offsetHeight;
@@ -153,7 +153,7 @@ window.onload = function () {
         buybutton.style.position = 'fixed';
         movieinfo.style.padding = '48px 12px 72px';
         if (wh != wh2) {
-          movieinfo.style.padding = '48px 12px ' + (wh2-wh+72) + 'px';
+          movieinfo.style.paddingTop = (wh2-wh+72) + 'px';
         }
         document.body.style.position = 'fixed';
       } 
@@ -168,7 +168,7 @@ window.onload = function () {
     popup.style.height = 'auto';
     popup.style.display = "none";
     buybutton.style.position = 'sticky';
-    movieinfo.style.padding = '48px 12px 12px'; 
+    movieinfo.style.paddingTop = '48px'; 
     document.body.style.overflowY = 'auto';
     document.body.style.position = 'relative';
     var scrtop2 = window.scrollY;
