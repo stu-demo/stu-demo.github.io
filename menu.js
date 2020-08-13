@@ -1,4 +1,14 @@
 window.onload = function () {
+  var date = document.getElementsByClassName('date');
+    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+      img.onload = function() {
+        img.removeAttribute('data-src');
+        for (var i = 0; i<date.length; i++) {
+          date[i].style.opacity = '1';
+        }
+      };
+    });
     /*MENU ANIMATION*/
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
@@ -31,5 +41,25 @@ window.onload = function () {
     for (var i=0; i < qa.length; i++) {
         qa[i].addEventListener('click', answer);
     }
+
+
+    // SCHEME PHOTO
+    var thispic;
+    var flag = document.getElementsByClassName('flag');
+    var flagclick = function(e) {
+      var picname ='pic-' + e.target.className.match(/\d+/g);
+      thispic = document.getElementsByClassName(picname)[0];
+      thispic.style.opacity = '1';
+    }
+
+    var flagclose = function(e) {
+      thispic.style.opacity = '0';
+    }
     
+    for (var i=0; i < flag.length; i++) {
+      flag[i].addEventListener('mouseenter', flagclick);
+      flag[i].addEventListener('mouseleave', flagclose);
+  }
+
+
   };
