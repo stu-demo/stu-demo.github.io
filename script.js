@@ -62,8 +62,8 @@ window.onload = function () {
           e.target.textContent = "Еще";
           show1.textContent = '21:00';
           show2.textContent = '00:00';
-          show1.previousElementSibling.textContent = 'Сеанс 1';
-          show2.previousElementSibling.textContent = 'Сеанс 2';
+          show1.previousElementSibling.innerHTML = 'Сеанс <span class="number">1</span>';
+          show2.previousElementSibling.innerHTML = 'Сеанс <span class="number">2</span>';
         }
       } else {
         for (i=0; i<movie.length; i++) {
@@ -71,8 +71,8 @@ window.onload = function () {
           e.target.textContent = "Закрыть";
           show1.textContent = '00:00';
           show2.textContent = '3:00';
-          show1.previousElementSibling.textContent = 'Сеанс 2';
-          show2.previousElementSibling.textContent = 'Сеанс 3';
+          show1.previousElementSibling.innerHTML = 'Сеанс <span class="number">2</span>';
+          show2.previousElementSibling.innerHTML = 'Сеанс <span class="number">3</span>';
         }
       }
     }

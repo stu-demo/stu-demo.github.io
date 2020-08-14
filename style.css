@@ -239,11 +239,10 @@ transition: opacity;
 
 .overflow-container {
 grid-area: 1 / 1 / 1 / 3;
-overflow-x: hidden;
 }
 
 .slider {
-  width: 100%;
+  width: 66.66%;
   margin-left: 33.33%;
 display: table;
 position: relative;
@@ -257,6 +256,12 @@ width: 33.33%;
 padding: 0 12px 12px 0;
 transition: 0.3s;
 cursor: pointer;
+}
+
+.movie img {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 96px;
 }
 
 .coming-soon {
@@ -396,17 +401,18 @@ outline: none;
   position: absolute;
   top: 0;
   display: flex;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   justify-content: center;
   align-self: center;
   background-color: black;
   border-radius: 100px;
   z-index: 2;
-  font-size: 24px;
-  line-height: 21px;
-  margin-top: -12px;
-  margin-left: -12px;
+  font-size: 33px;
+  line-height: 32px;
+  margin-top: -18px;
+  margin-left: -18px;
+  padding: 0 0px 1px 1px;
   cursor: pointer;
 }
 
@@ -678,6 +684,7 @@ header {
 
 .overflow-container {
   grid-area: 1 / 1 / 1 / 3;
+  overflow-x: hidden;
 }
 
 .slider {

@@ -61,5 +61,4 @@ window.onload = function () {
       flag[i].addEventListener('mouseleave', flagclose);
   }
 
-
   };
