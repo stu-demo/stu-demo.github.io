@@ -497,16 +497,12 @@ margin-bottom: 18px;
 .partner-wrapper {
 display: grid;
 grid-template-columns: 1fr 2fr;
-margin-bottom: 24px;
+margin-top: 12px;
 }
 
 .partner-wrapper .slider {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-}
-
-.partner-wrapper:last-of-type {
-margin-bottom: 0;
 }
 
 .partner-wrapper img {
@@ -639,6 +635,10 @@ header {
   font-size: 10px;
   line-height: 10px;
   margin-left: -2px;
+}
+
+#logo .number {
+  display: block;
 }
 
 .date{
