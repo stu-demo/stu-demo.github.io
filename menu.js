@@ -9,12 +9,13 @@ window.onload = function () {
         }
       };
     });
+
     /*MENU ANIMATION*/
+    /*
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
-    var d = menulinks[0].clientHeight+14;
-    console.log(d);
-    if (window.innerWidth >= 768) {
+    var d = menulinks[0].clientHeight+15;
+    if (window.innerWidth > 768) {
       document.body.onscroll = function() {
         var position = window.innerHeight-logo.offsetHeight;
         var zerotoone = window.scrollY/(document.body.scrollHeight-window.innerHeight);
@@ -23,6 +24,7 @@ window.onload = function () {
         }
       }
     }
+    */
 
     var qa = document.getElementsByClassName('qa-item');
     var answer = function(e){

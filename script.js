@@ -80,9 +80,10 @@ window.onload = function () {
   
   
     /*MENU ANIMATION*/
+    /*
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
-    var d = menulinks[0].clientHeight+14;
+    var d = menulinks[0].clientHeight+15;
     if (window.innerWidth > 768) {
       document.body.onscroll = function() {
         var position = window.innerHeight-logo.offsetHeight;
@@ -92,6 +93,7 @@ window.onload = function () {
         }
       }
     }
+    */
   
   
   
