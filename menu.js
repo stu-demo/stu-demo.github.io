@@ -1,14 +1,8 @@
 window.onload = function () {
   var date = document.getElementsByClassName('date');
-    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-      img.setAttribute('src', img.getAttribute('data-src'));
-      img.onload = function() {
-        img.removeAttribute('data-src');
-        for (var i = 0; i<date.length; i++) {
-          date[i].style.opacity = '1';
-        }
-      };
-    });
+  for (var i = 0; i<date.length; i++) {
+    date[i].style.opacity = '1';
+  }
 
     /*MENU ANIMATION*/
     /*

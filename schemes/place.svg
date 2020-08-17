@@ -1,174 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1327px" height="720px" viewBox="0 0 1327 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>WRS Copy</title>
-    <g id="WRS-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#000000" x="0" y="0" width="1327" height="720"></rect>
-        <rect id="Rectangle" stroke="#FFFFFF" fill="#000000" x="813.5" y="33.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-2" stroke="#FFFFFF" fill="#000000" x="813.5" y="81.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-24" stroke="#FFFFFF" fill="#000000" x="534.5" y="81.5" width="78" height="42"></rect>
-        <rect id="Rectangle" stroke="#FFFFFF" fill="#000000" x="228.5" y="447.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-61" stroke="#FFFFFF" fill="#000000" x="260.5" y="447.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-40" stroke="#FFFFFF" fill="#000000" x="228.5" y="429.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-62" stroke="#FFFFFF" fill="#000000" x="260.5" y="429.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-41" stroke="#FFFFFF" fill="#000000" x="228.5" y="411.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-63" stroke="#FFFFFF" fill="#000000" x="260.5" y="411.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-47" stroke="#FFFFFF" fill="#000000" x="228.5" y="393.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-64" stroke="#FFFFFF" fill="#000000" x="260.5" y="393.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-48" stroke="#FFFFFF" fill="#000000" x="228.5" y="375.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-65" stroke="#FFFFFF" fill="#000000" x="260.5" y="375.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-49" stroke="#FFFFFF" fill="#000000" x="228.5" y="357.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-66" stroke="#FFFFFF" fill="#000000" x="260.5" y="357.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-50" stroke="#FFFFFF" fill="#000000" x="228.5" y="339.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-67" stroke="#FFFFFF" fill="#000000" x="260.5" y="339.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-51" stroke="#FFFFFF" fill="#000000" x="228.5" y="321.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-68" stroke="#FFFFFF" fill="#000000" x="260.5" y="321.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-52" stroke="#FFFFFF" fill="#000000" x="228.5" y="303.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-69" stroke="#FFFFFF" fill="#000000" x="260.5" y="303.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-53" stroke="#FFFFFF" fill="#000000" x="228.5" y="285.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-70" stroke="#FFFFFF" fill="#000000" x="260.5" y="285.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-54" stroke="#FFFFFF" fill="#000000" x="228.5" y="267.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-71" stroke="#FFFFFF" fill="#000000" x="260.5" y="267.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-55" stroke="#FFFFFF" fill="#000000" x="228.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-72" stroke="#FFFFFF" fill="#000000" x="260.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-56" stroke="#FFFFFF" fill="#000000" x="228.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-73" stroke="#FFFFFF" fill="#000000" x="260.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-57" stroke="#FFFFFF" fill="#000000" x="228.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-74" stroke="#FFFFFF" fill="#000000" x="260.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-58" stroke="#FFFFFF" fill="#000000" x="228.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-75" stroke="#FFFFFF" fill="#000000" x="260.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-59" stroke="#FFFFFF" fill="#000000" x="228.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-76" stroke="#FFFFFF" fill="#000000" x="260.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-92" stroke="#FFFFFF" fill="#000000" x="292.5" y="447.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-91" stroke="#FFFFFF" fill="#000000" x="292.5" y="429.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-90" stroke="#FFFFFF" fill="#000000" x="292.5" y="411.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-89" stroke="#FFFFFF" fill="#000000" x="292.5" y="393.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-88" stroke="#FFFFFF" fill="#000000" x="292.5" y="375.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-87" stroke="#FFFFFF" fill="#000000" x="292.5" y="357.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-86" stroke="#FFFFFF" fill="#000000" x="292.5" y="339.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-85" stroke="#FFFFFF" fill="#000000" x="292.5" y="321.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-84" stroke="#FFFFFF" fill="#000000" x="292.5" y="303.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-83" stroke="#FFFFFF" fill="#000000" x="292.5" y="285.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-82" stroke="#FFFFFF" fill="#000000" x="292.5" y="267.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-81" stroke="#FFFFFF" fill="#000000" x="292.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-80" stroke="#FFFFFF" fill="#000000" x="292.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-79" stroke="#FFFFFF" fill="#000000" x="292.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-78" stroke="#FFFFFF" fill="#000000" x="292.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-77" stroke="#FFFFFF" fill="#000000" x="292.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-99" stroke="#FFFFFF" fill="#000000" x="1205.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-125" stroke="#FFFFFF" fill="#000000" x="350.5" y="673.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-100" stroke="#FFFFFF" fill="#000000" x="1237.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-126" stroke="#FFFFFF" fill="#000000" x="382.5" y="673.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-101" stroke="#FFFFFF" fill="#000000" x="1205.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-127" stroke="#FFFFFF" fill="#000000" x="350.5" y="655.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-102" stroke="#FFFFFF" fill="#000000" x="1237.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-141" stroke="#FFFFFF" fill="#000000" x="382.5" y="655.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-103" stroke="#FFFFFF" fill="#000000" x="1205.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-142" stroke="#FFFFFF" fill="#000000" x="350.5" y="637.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-104" stroke="#FFFFFF" fill="#000000" x="1237.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-143" stroke="#FFFFFF" fill="#000000" x="382.5" y="637.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-105" stroke="#FFFFFF" fill="#000000" x="1205.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-144" stroke="#FFFFFF" fill="#000000" x="350.5" y="619.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-106" stroke="#FFFFFF" fill="#000000" x="1237.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-145" stroke="#FFFFFF" fill="#000000" x="382.5" y="619.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-107" stroke="#FFFFFF" fill="#000000" x="1205.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-146" stroke="#FFFFFF" fill="#000000" x="350.5" y="601.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-108" stroke="#FFFFFF" fill="#000000" x="1237.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-147" stroke="#FFFFFF" fill="#000000" x="382.5" y="601.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-109" stroke="#FFFFFF" fill="#000000" x="1205.5" y="159.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-148" stroke="#FFFFFF" fill="#000000" x="350.5" y="583.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-110" stroke="#FFFFFF" fill="#000000" x="1237.5" y="159.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-149" stroke="#FFFFFF" fill="#000000" x="382.5" y="583.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-111" stroke="#FFFFFF" fill="#000000" x="1205.5" y="141.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-150" stroke="#FFFFFF" fill="#000000" x="350.5" y="565.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-112" stroke="#FFFFFF" fill="#000000" x="1237.5" y="141.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-151" stroke="#FFFFFF" fill="#000000" x="382.5" y="565.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-113" stroke="#FFFFFF" fill="#000000" x="1205.5" y="123.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-114" stroke="#FFFFFF" fill="#000000" x="1237.5" y="123.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-115" stroke="#FFFFFF" fill="#000000" x="1205.5" y="105.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-116" stroke="#FFFFFF" fill="#000000" x="1237.5" y="105.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-117" stroke="#FFFFFF" fill="#000000" x="1205.5" y="87.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-118" stroke="#FFFFFF" fill="#000000" x="1237.5" y="87.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-119" stroke="#FFFFFF" fill="#000000" x="1205.5" y="69.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-120" stroke="#FFFFFF" fill="#000000" x="1237.5" y="69.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-121" stroke="#FFFFFF" fill="#000000" x="1205.5" y="51.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-122" stroke="#FFFFFF" fill="#000000" x="1237.5" y="51.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-123" stroke="#FFFFFF" fill="#000000" x="1205.5" y="33.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-124" stroke="#FFFFFF" fill="#000000" x="1237.5" y="33.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-128" stroke="#FFFFFF" fill="#000000" x="1269.5" y="249.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-164" stroke="#FFFFFF" fill="#000000" x="414.5" y="673.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-171" stroke="#FFFFFF" fill="#000000" x="446.5" y="673.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-129" stroke="#FFFFFF" fill="#000000" x="1269.5" y="231.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-165" stroke="#FFFFFF" fill="#000000" x="414.5" y="655.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-172" stroke="#FFFFFF" fill="#000000" x="446.5" y="655.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-130" stroke="#FFFFFF" fill="#000000" x="1269.5" y="213.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-166" stroke="#FFFFFF" fill="#000000" x="414.5" y="637.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-173" stroke="#FFFFFF" fill="#000000" x="446.5" y="637.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-131" stroke="#FFFFFF" fill="#000000" x="1269.5" y="195.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-167" stroke="#FFFFFF" fill="#000000" x="414.5" y="619.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-174" stroke="#FFFFFF" fill="#000000" x="446.5" y="619.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-132" stroke="#FFFFFF" fill="#000000" x="1269.5" y="177.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-168" stroke="#FFFFFF" fill="#000000" x="414.5" y="601.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-175" stroke="#FFFFFF" fill="#000000" x="446.5" y="601.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-133" stroke="#FFFFFF" fill="#000000" x="1269.5" y="159.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-169" stroke="#FFFFFF" fill="#000000" x="414.5" y="583.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-176" stroke="#FFFFFF" fill="#000000" x="446.5" y="583.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-134" stroke="#FFFFFF" fill="#000000" x="1269.5" y="141.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-170" stroke="#FFFFFF" fill="#000000" x="414.5" y="565.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-177" stroke="#FFFFFF" fill="#000000" x="446.5" y="565.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-135" stroke="#FFFFFF" fill="#000000" x="1269.5" y="123.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-136" stroke="#FFFFFF" fill="#000000" x="1269.5" y="105.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-137" stroke="#FFFFFF" fill="#000000" x="1269.5" y="87.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-138" stroke="#FFFFFF" fill="#000000" x="1269.5" y="69.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-139" stroke="#FFFFFF" fill="#000000" x="1269.5" y="51.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy-140" stroke="#FFFFFF" fill="#000000" x="1269.5" y="33.5" width="23" height="12"></rect>
-        <rect id="Rectangle-Copy" stroke="#FFFFFF" fill="#000000" x="908.5" y="33.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-25" stroke="#FFFFFF" fill="#000000" x="629.5" y="33.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-39" stroke="#FFFFFF" fill="#000000" x="534.5" y="33.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-16" stroke="#FFFFFF" fill="#000000" x="1092.5" y="33.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-3" stroke="#FFFFFF" fill="#000000" x="908.5" y="81.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-26" stroke="#FFFFFF" fill="#000000" x="629.5" y="81.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-17" stroke="#FFFFFF" fill="#000000" x="1092.5" y="81.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-5" stroke="#FFFFFF" fill="#000000" x="813.5" y="129.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-27" stroke="#FFFFFF" fill="#000000" x="534.5" y="129.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-4" stroke="#FFFFFF" fill="#000000" x="908.5" y="129.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-28" stroke="#FFFFFF" fill="#000000" x="629.5" y="129.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-18" stroke="#FFFFFF" fill="#000000" x="1092.5" y="129.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-7" stroke="#FFFFFF" fill="#000000" x="813.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-29" stroke="#FFFFFF" fill="#000000" x="534.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-6" stroke="#FFFFFF" fill="#000000" x="908.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-30" stroke="#FFFFFF" fill="#000000" x="629.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-19" stroke="#FFFFFF" fill="#000000" x="1092.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-42" stroke="#FFFFFF" fill="#000000" x="350.5" y="177.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-9" stroke="#FFFFFF" fill="#000000" x="813.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-31" stroke="#FFFFFF" fill="#000000" x="534.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-8" stroke="#FFFFFF" fill="#000000" x="908.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-32" stroke="#FFFFFF" fill="#000000" x="629.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-20" stroke="#FFFFFF" fill="#000000" x="1092.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-43" stroke="#FFFFFF" fill="#000000" x="350.5" y="225.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-11" stroke="#FFFFFF" fill="#000000" x="813.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-33" stroke="#FFFFFF" fill="#000000" x="534.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-10" stroke="#FFFFFF" fill="#000000" x="908.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-34" stroke="#FFFFFF" fill="#000000" x="629.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-21" stroke="#FFFFFF" fill="#000000" x="1092.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-44" stroke="#FFFFFF" fill="#000000" x="350.5" y="273.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-13" stroke="#FFFFFF" fill="#000000" x="813.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-35" stroke="#FFFFFF" fill="#000000" x="534.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-12" stroke="#FFFFFF" fill="#000000" x="908.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-36" stroke="#FFFFFF" fill="#000000" x="629.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-22" stroke="#FFFFFF" fill="#000000" x="1092.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-45" stroke="#FFFFFF" fill="#000000" x="350.5" y="321.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-15" stroke="#FFFFFF" fill="#000000" x="813.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-37" stroke="#FFFFFF" fill="#000000" x="534.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-14" stroke="#FFFFFF" fill="#000000" x="908.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-38" stroke="#FFFFFF" fill="#000000" x="629.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-23" stroke="#FFFFFF" fill="#000000" x="1092.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-46" stroke="#FFFFFF" fill="#000000" x="350.5" y="369.5" width="78" height="42"></rect>
-        <rect id="Rectangle-Copy-60" stroke="#FFFFFF" fill="#000000" x="350.5" y="417.5" width="78" height="42"></rect>
-        <rect id="Rectangle" stroke="#FFFFFF" fill="#000000" x="34.5" y="177.5" width="31" height="282"></rect>
-        <path d="M374.315918,550 C376.633301,550.041016 378.581543,548.103027 378.540527,545.59082 C378.540527,543.170898 377.084473,541.325195 374.018555,541.325195 L369.506836,541.325195 L369.506836,536.669922 L377.586914,536.669922 L377.586914,535.295898 L368.040527,535.295898 L368.040527,550 L374.315918,550 Z M373.998047,548.63623 L369.506836,548.63623 L369.506836,542.688965 L374.018555,542.688965 C375.812988,542.688965 377.063965,543.837402 377.063965,545.652344 C377.063965,547.467285 375.79248,548.63623 373.998047,548.63623 Z M381.021973,550 L382.662598,545.949707 L390.178711,545.949707 L391.819336,550 L393.367676,550 L387.379395,535.295898 L385.533691,535.295898 L379.504395,550 L381.021973,550 Z M389.635254,544.585938 L383.206055,544.585938 L386.425781,536.649414 L389.635254,544.585938 Z M395.018555,550 C397.171875,550 397.838379,549.046387 398.022949,547.210938 C398.094727,546.441895 398.166504,545.17041 398.238281,543.375977 C398.304077,541.731079 398.335409,540.361898 398.340174,539.268433 L398.34082,536.669922 L405.036621,536.669922 L405.036621,550 L406.513184,550 L406.513184,535.295898 L396.956543,535.295898 L396.956543,539.038574 C396.956543,540.463867 396.936035,541.971191 396.884766,543.570801 C396.833496,545.17041 396.771973,546.288086 396.700195,546.934082 C396.577148,548.123535 396.249023,548.63623 395.018555,548.63623 L393.829102,548.63623 L393.829102,550 L395.018555,550 Z M412.050293,550 L412.050293,545.416504 L415.21875,542.278809 L420.509766,550 L422.345215,550 L416.274902,541.23291 L422.25293,535.295898 L420.304688,535.295898 L412.050293,543.48877 L412.050293,535.295898 L410.583984,535.295898 L410.583984,550 L412.050293,550 Z M429.728027,550.205078 C433.573242,550.246094 436.485352,547.272461 436.444336,542.647949 C436.485352,538.023438 433.573242,535.049805 429.728027,535.09082 C425.882812,535.049805 422.970703,538.023438 423.011719,542.647949 C422.970703,547.272461 425.882812,550.246094 429.728027,550.205078 Z M429.830566,548.841309 L429.625488,548.841309 C426.651855,548.87207 424.447266,546.411133 424.478027,542.647949 C424.447266,538.884766 426.651855,536.423828 429.625488,536.45459 L429.830566,536.45459 C432.804199,536.423828 435.008789,538.884766 434.978027,542.647949 C435.008789,546.411133 432.804199,548.87207 429.830566,548.841309 Z M441.089355,550 L441.089355,543.324707 L449.384766,543.324707 L449.384766,550 L450.851074,550 L450.851074,535.295898 L449.384766,535.295898 L449.384766,541.960938 L441.089355,541.960938 L441.089355,535.295898 L439.623047,535.295898 L439.623047,550 L441.089355,550 Z" id="БАЛКОН" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <path d="M231.436035,491 L231.436035,476.295898 L229.959473,476.295898 L229.959473,489.63623 L222.966309,489.63623 L222.966309,476.295898 L221.5,476.295898 L221.5,489.63623 L214.506836,489.63623 L214.506836,476.295898 L213.040527,476.295898 L213.040527,491 L231.436035,491 Z M245.986328,491 L245.986328,489.63623 L236.973145,489.63623 L236.973145,484.109375 L244.509766,484.109375 L244.509766,482.745605 L236.973145,482.745605 L236.973145,477.669922 L245.770996,477.669922 L245.770996,476.295898 L235.506836,476.295898 L235.506836,491 L245.986328,491 Z M253.666504,491.23584 C257.306641,491.266602 259.32666,489.349121 259.295898,486.990723 C259.295898,485.09375 258.424316,483.935059 256.506836,483.483887 C258.219238,482.837891 259.029297,481.597168 259.029297,480.120605 C259.029297,477.567383 256.9375,476.09068 253.963867,476.09068 C250.19043,476.070312 248.467773,478.305664 248.17041,480.817871 L249.616211,480.817871 C249.729004,479.84375 250.128906,479.033691 250.826172,478.408203 C251.533691,477.772461 252.57959,477.45459 253.963867,477.45459 C256.301758,477.45459 257.552734,478.623535 257.552734,480.161621 C257.552734,481.833008 256.188965,482.868652 254.107422,482.868652 L251.943848,482.868652 L251.943848,484.242676 L254.179199,484.242676 C256.588867,484.242676 257.788574,485.104004 257.788574,486.836914 C257.788574,488.518555 256.404297,489.861816 253.666504,489.861816 C251.185059,489.861816 249.698242,488.549316 249.53418,486.488281 L248.067871,486.488281 C248.313965,489.482422 250.251953,491.23584 253.666504,491.23584 Z M261.705566,491 C263.858887,491 264.525391,490.046387 264.709961,488.210938 C264.781738,487.441895 264.853516,486.17041 264.925293,484.375977 C264.991089,482.731079 265.02242,481.361898 265.027185,480.268433 L265.027832,477.669922 L271.723633,477.669922 L271.723633,491 L273.200195,491 L273.200195,476.295898 L263.643555,476.295898 L263.643555,480.038574 C263.643555,481.463867 263.623047,482.971191 263.571777,484.570801 C263.520508,486.17041 263.458984,487.288086 263.387207,487.934082 C263.26416,489.123535 262.936035,489.63623 261.705566,489.63623 L260.516113,489.63623 L260.516113,491 L261.705566,491 Z M283.084961,491.205078 C286.930176,491.246094 289.842285,488.272461 289.80127,483.647949 C289.842285,479.023438 286.930176,476.049805 283.084961,476.09082 C279.239746,476.049805 276.327637,479.023438 276.368652,483.647949 C276.327637,488.272461 279.239746,491.246094 283.084961,491.205078 Z M283.1875,489.841309 L282.982422,489.841309 C280.008789,489.87207 277.804199,487.411133 277.834961,483.647949 C277.804199,479.884766 280.008789,477.423828 282.982422,477.45459 L283.1875,477.45459 C286.161133,477.423828 288.365723,479.884766 288.334961,483.647949 C288.365723,487.411133 286.161133,489.87207 283.1875,489.841309 Z M294.446289,491 L294.446289,484.324707 L302.741699,484.324707 L302.741699,491 L304.208008,491 L304.208008,476.295898 L302.741699,476.295898 L302.741699,482.960938 L294.446289,482.960938 L294.446289,476.295898 L292.97998,476.295898 L292.97998,491 L294.446289,491 Z M309.755371,491 L309.755371,477.669922 L316.645996,477.669922 L316.645996,476.295898 L308.289062,476.295898 L308.289062,491 L309.755371,491 Z M321.034668,491 L329.094238,477.772461 L329.094238,491 L330.560547,491 L330.560547,476.295898 L328.396973,476.295898 L320.337402,489.533691 L320.337402,476.295898 L318.871094,476.295898 L318.871094,491 L321.034668,491 Z" id="ШЕЗЛОНГИ" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <path d="M21.8701172,328.205078 C26.0742188,328.256348 28.3198242,324.811035 28.2890625,320.36084 C28.2890625,315.900391 26.1357422,313.09082 21.8701172,313.09082 C18.3837891,313.09082 16.2919922,315.008301 15.984375,317.817871 L17.4609375,317.817871 C17.6967773,315.654297 19.6245117,314.434082 21.7573242,314.45459 L21.9726562,314.45459 C23.5415039,314.45459 24.7207031,314.92627 25.5,315.879883 C26.2895508,316.823242 26.7202148,318.115234 26.8022461,319.745605 L20.0449219,319.745605 L20.0449219,321.109375 L26.8022461,321.109375 C26.6074219,324.308594 25.2026367,326.851562 22.0546875,326.841309 L21.8496094,326.841309 C19.706543,326.861816 17.5737305,325.651855 17.3686523,323.488281 L15.9023438,323.488281 C16.1074219,326.441406 18.7426758,328.23584 21.8701172,328.205078 Z M32.9545898,328 L32.9545898,323.416504 L36.1230469,320.278809 L41.4140625,328 L43.2495117,328 L37.1791992,319.23291 L43.1572266,313.295898 L41.2089844,313.295898 L32.9545898,321.48877 L32.9545898,313.295898 L31.4882812,313.295898 L31.4882812,328 L32.9545898,328 Z M47.0024414,328 L47.0024414,321.950195 L51.4116211,321.950195 C53.9648438,321.980957 56.0668945,320.401855 56.0361328,317.643555 C56.0771484,314.895508 53.9545898,313.275391 51.4116211,313.295898 L45.5361328,313.295898 L45.5361328,328 L47.0024414,328 Z M51.09375,320.586426 L47.0024414,320.586426 L47.0024414,314.669922 L51.09375,314.669922 C52.1499023,314.669922 52.9907227,314.92627 53.6162109,315.428711 C54.2416992,315.931152 54.5595703,316.669434 54.5595703,317.643555 C54.5595703,319.581543 53.2265625,320.586426 51.09375,320.586426 Z M57.5229492,328 L59.1635742,323.949707 L66.6796875,323.949707 L68.3203125,328 L69.8686523,328 L63.8803711,313.295898 L62.034668,313.295898 L56.0053711,328 L57.5229492,328 Z M66.1362305,322.585938 L59.7070312,322.585938 L62.9267578,314.649414 L66.1362305,322.585938 Z M73.5600586,328 L73.5600586,321.324707 L81.8554688,321.324707 L81.8554688,328 L83.3217773,328 L83.3217773,313.295898 L81.8554688,313.295898 L81.8554688,319.960938 L73.5600586,319.960938 L73.5600586,313.295898 L72.09375,313.295898 L72.09375,328 L73.5600586,328 Z" id="ЭКРАН" fill="#FFFFFF" fill-rule="nonzero" transform="translate(49.612061, 320.648232) rotate(-90.000000) translate(-49.612061, -320.648232) "></path>
-        <path d="M1207.31592,288 C1209.65381,288.030762 1211.58154,286.390137 1211.54053,283.949707 C1211.57129,281.85791 1210.10498,280.760742 1208.87451,280.54541 C1210.12549,280.17627 1211.22266,278.771484 1211.22266,277.141113 C1211.25342,274.782715 1209.47949,273.275391 1207.17236,273.295898 L1201.04053,273.295898 L1201.04053,288 L1207.31592,288 Z M1207.01855,279.868652 L1202.50684,279.868652 L1202.50684,274.669922 L1207.01855,274.669922 C1208.61816,274.669922 1209.75635,275.613281 1209.75635,277.26416 C1209.75635,278.925293 1208.61816,279.868652 1207.01855,279.868652 Z M1206.99805,286.63623 L1202.50684,286.63623 L1202.50684,281.242676 L1207.01855,281.242676 C1207.94141,281.242676 1208.67969,281.478516 1209.2334,281.939941 C1209.78711,282.401367 1210.06396,283.057617 1210.06396,283.929199 C1210.06396,285.692871 1208.80273,286.63623 1206.99805,286.63623 Z M1225.29102,288 L1225.29102,286.63623 L1216.27783,286.63623 L1216.27783,281.109375 L1223.81445,281.109375 L1223.81445,279.745605 L1216.27783,279.745605 L1216.27783,274.669922 L1225.07568,274.669922 L1225.07568,273.295898 L1214.81152,273.295898 L1214.81152,288 L1225.29102,288 Z M1229.76172,288 L1229.76172,281.950195 L1234.1709,281.950195 C1236.72412,281.980957 1238.82617,280.401855 1238.79541,277.643555 C1238.83643,274.895508 1236.71387,273.275391 1234.1709,273.295898 L1228.29541,273.295898 L1228.29541,288 L1229.76172,288 Z M1233.85303,280.586426 L1229.76172,280.586426 L1229.76172,274.669922 L1233.85303,274.669922 C1234.90918,274.669922 1235.75,274.92627 1236.37549,275.428711 C1237.00098,275.931152 1237.31885,276.669434 1237.31885,277.643555 C1237.31885,279.581543 1235.98584,280.586426 1233.85303,280.586426 Z M1240.28223,288 L1241.92285,283.949707 L1249.43896,283.949707 L1251.07959,288 L1252.62793,288 L1246.63965,273.295898 L1244.79395,273.295898 L1238.76465,288 L1240.28223,288 Z M1248.89551,282.585938 L1242.46631,282.585938 L1245.68604,274.649414 L1248.89551,282.585938 Z M1256.31934,288 L1256.31934,281.324707 L1264.61475,281.324707 L1264.61475,288 L1266.08105,288 L1266.08105,273.295898 L1264.61475,273.295898 L1264.61475,279.960938 L1256.31934,279.960938 L1256.31934,273.295898 L1254.85303,273.295898 L1254.85303,288 L1256.31934,288 Z M1269.84424,291.147949 L1269.84424,288 L1282.12842,288 L1282.12842,291.147949 L1283.55371,291.147949 L1283.55371,286.63623 L1281.24658,286.63623 L1281.24658,273.295898 L1271.50537,273.295898 L1271.50537,277.038574 C1271.50537,278.545898 1271.48486,280.032715 1271.43359,281.478516 C1271.39258,282.924316 1271.3208,284.021484 1271.20801,284.749512 C1271.03369,285.928711 1270.77734,286.605469 1269.62891,286.63623 L1268.41895,286.63623 L1268.41895,291.147949 L1269.84424,291.147949 Z M1279.78027,286.63623 L1272.1001,286.63623 C1272.39746,286.287598 1272.58203,285.692871 1272.65381,284.852051 C1272.72559,284.103516 1272.79736,282.924316 1272.84863,281.314453 C1272.8999,279.694336 1272.93066,278.248535 1272.93066,276.977051 L1272.93066,274.669922 L1279.78027,274.669922 L1279.78027,286.63623 Z M1285.65576,288 L1287.29639,283.949707 L1294.8125,283.949707 L1296.45312,288 L1298.00146,288 L1292.01318,273.295898 L1290.16748,273.295898 L1284.13818,288 L1285.65576,288 Z M1294.26904,282.585938 L1287.83984,282.585938 L1291.05957,274.649414 L1294.26904,282.585938 Z" id="ВЕРАНДА" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <path d="M632.349609,244 L632.349609,212.261719 L651.661133,212.261719 L651.661133,244 L655.152344,244 L655.152344,208.990234 L628.858398,208.990234 L628.858398,244 L632.349609,244 Z M664.014648,244 L667.920898,234.356445 L685.816406,234.356445 L689.722656,244 L693.40918,244 L679.151367,208.990234 L674.756836,208.990234 L660.401367,244 L664.014648,244 Z M684.522461,231.109375 L669.214844,231.109375 L676.880859,212.212891 L684.522461,231.109375 Z M702.198242,244 L702.198242,229.595703 L712.696289,229.595703 C718.775391,229.668945 723.780273,225.90918 723.707031,219.341797 C723.803112,212.90436 718.912659,209.066538 712.988459,208.990915 L698.707031,208.990234 L698.707031,244 L702.198242,244 Z M711.939453,226.348633 L702.198242,226.348633 L702.198242,212.261719 L711.939453,212.261719 C714.454102,212.261719 716.456055,212.87207 717.945312,214.068359 C719.43457,215.264648 720.191406,217.022461 720.191406,219.341797 C720.191406,223.956055 717.017578,226.348633 711.939453,226.348633 Z M733.887695,244 L733.887695,233.086914 L741.431641,225.616211 L754.029297,244 L758.399414,244 L743.946289,223.125977 L758.179688,208.990234 L753.541016,208.990234 L733.887695,228.49707 L733.887695,208.990234 L730.396484,208.990234 L730.396484,244 L733.887695,244 Z M791.96875,226.495117 C792.065297,215.609497 785.289486,208.565715 776.288783,208.5014 L775.977539,208.501953 C766.822266,208.404297 759.888672,215.484375 759.986328,226.495117 C759.889782,237.380737 766.665592,244.424519 775.666295,244.488835 L775.977539,244.488281 C785.132812,244.585938 792.066406,237.505859 791.96875,226.495117 Z M776.22168,241.241211 L775.733398,241.241211 C768.750308,241.31345 763.548449,235.614496 763.477516,226.861582 L763.477539,226.495117 C763.4053,217.657895 768.51051,211.836894 775.443476,211.749346 L776.22168,211.749023 C783.20477,211.676785 788.406629,217.375739 788.477562,226.128652 L788.477539,226.495117 C788.550781,235.455078 783.301758,241.314453 776.22168,241.241211 Z M824.537109,234.356445 C824.610352,229.375977 821.119141,226.763672 818.189453,226.250977 C821.167969,225.37207 823.780273,222.027344 823.780273,218.145508 C823.852253,212.627088 819.774248,209.065763 814.4197,208.990945 L799.537109,208.990234 L799.537109,244 L814.478516,244 C820.044922,244.073242 824.634766,240.166992 824.537109,234.356445 Z M813.770508,224.639648 L803.02832,224.639648 L803.02832,212.261719 L813.770508,212.261719 C817.579102,212.261719 820.289062,214.507812 820.289062,218.438477 C820.289062,222.393555 817.579102,224.639648 813.770508,224.639648 Z M813.72168,240.75293 L803.02832,240.75293 L803.02832,227.911133 L813.770508,227.911133 C815.967773,227.911133 817.725586,228.472656 819.043945,229.571289 C820.362305,230.669922 821.021484,232.232422 821.021484,234.307617 C821.021484,238.506836 818.018555,240.75293 813.72168,240.75293 Z M835.816406,244 L835.816406,233.086914 L843.360352,225.616211 L855.958008,244 L860.328125,244 L845.875,223.125977 L860.108398,208.990234 L855.469727,208.990234 L835.816406,228.49707 L835.816406,208.990234 L832.325195,208.990234 L832.325195,244 L835.816406,244 Z M864.917969,244 L868.824219,234.356445 L886.719727,234.356445 L890.625977,244 L894.3125,244 L880.054688,208.990234 L875.660156,208.990234 L861.304688,244 L864.917969,244 Z M885.425781,231.109375 L870.118164,231.109375 L877.78418,212.212891 L885.425781,231.109375 Z" id="ПАРКОВКА" fill="#FFFFFF" fill-rule="nonzero" transform="translate(761.585449, 226.495117) rotate(-90.000000) translate(-761.585449, -226.495117) "></path>
+<svg width="1197px" height="770px" viewBox="0 0 1197 770" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WRS Copy 3</title>
+    <g id="WRS-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#000000" x="0" y="0" width="1197" height="770"></rect>
+        <g id="Group" transform="translate(1098.200195, 294.000000)">
+            <circle id="Oval" stroke="#FFFFFF" cx="24" cy="24" r="24"></circle>
+            <text id="+" transform="translate(24.500000, 20.000000) rotate(-360.000000) translate(-24.500000, -20.000000) " font-family="FavoritPro-Light, Favorit Pro" font-size="38" font-weight="300" line-spacing="36" fill="#FFFFFF">
+                <tspan x="13" y="37">+</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle" stroke="#FFFFFF" x="695.700195" y="24.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-2" stroke="#FFFFFF" x="695.700195" y="72.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-24" stroke="#FFFFFF" x="433.700195" y="72.5" width="78" height="42"></rect>
+        <rect id="Rectangle" stroke="#FFFFFF" x="148.700195" y="438.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-61" stroke="#FFFFFF" x="180.700195" y="438.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-40" stroke="#FFFFFF" x="148.700195" y="420.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-62" stroke="#FFFFFF" x="180.700195" y="420.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-41" stroke="#FFFFFF" x="148.700195" y="402.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-63" stroke="#FFFFFF" x="180.700195" y="402.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-47" stroke="#FFFFFF" x="148.700195" y="384.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-64" stroke="#FFFFFF" x="180.700195" y="384.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-48" stroke="#FFFFFF" x="148.700195" y="366.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-65" stroke="#FFFFFF" x="180.700195" y="366.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-49" stroke="#FFFFFF" x="148.700195" y="348.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-66" stroke="#FFFFFF" x="180.700195" y="348.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-50" stroke="#FFFFFF" x="148.700195" y="330.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-67" stroke="#FFFFFF" x="180.700195" y="330.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-51" stroke="#FFFFFF" x="148.700195" y="312.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-68" stroke="#FFFFFF" x="180.700195" y="312.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-52" stroke="#FFFFFF" x="148.700195" y="294.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-69" stroke="#FFFFFF" x="180.700195" y="294.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-53" stroke="#FFFFFF" x="148.700195" y="276.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-70" stroke="#FFFFFF" x="180.700195" y="276.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-54" stroke="#FFFFFF" x="148.700195" y="258.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-71" stroke="#FFFFFF" x="180.700195" y="258.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-55" stroke="#FFFFFF" x="148.700195" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-72" stroke="#FFFFFF" x="180.700195" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-56" stroke="#FFFFFF" x="148.700195" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-73" stroke="#FFFFFF" x="180.700195" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-57" stroke="#FFFFFF" x="148.700195" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-74" stroke="#FFFFFF" x="180.700195" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-58" stroke="#FFFFFF" x="148.700195" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-75" stroke="#FFFFFF" x="180.700195" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-59" stroke="#FFFFFF" x="148.700195" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-76" stroke="#FFFFFF" x="180.700195" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-92" stroke="#FFFFFF" x="212.700195" y="438.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-91" stroke="#FFFFFF" x="212.700195" y="420.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-90" stroke="#FFFFFF" x="212.700195" y="402.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-89" stroke="#FFFFFF" x="212.700195" y="384.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-88" stroke="#FFFFFF" x="212.700195" y="366.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-87" stroke="#FFFFFF" x="212.700195" y="348.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-86" stroke="#FFFFFF" x="212.700195" y="330.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-85" stroke="#FFFFFF" x="212.700195" y="312.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-84" stroke="#FFFFFF" x="212.700195" y="294.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-83" stroke="#FFFFFF" x="212.700195" y="276.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-82" stroke="#FFFFFF" x="212.700195" y="258.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-81" stroke="#FFFFFF" x="212.700195" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-80" stroke="#FFFFFF" x="212.700195" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-79" stroke="#FFFFFF" x="212.700195" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-78" stroke="#FFFFFF" x="212.700195" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-77" stroke="#FFFFFF" x="212.700195" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-99" stroke="#FFFFFF" x="1078.7002" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-125" stroke="#FFFFFF" x="265.700195" y="733.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-100" stroke="#FFFFFF" x="1110.7002" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-126" stroke="#FFFFFF" x="297.700195" y="733.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-101" stroke="#FFFFFF" x="1078.7002" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-127" stroke="#FFFFFF" x="265.700195" y="715.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-102" stroke="#FFFFFF" x="1110.7002" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-141" stroke="#FFFFFF" x="297.700195" y="715.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-103" stroke="#FFFFFF" x="1078.7002" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-142" stroke="#FFFFFF" x="265.700195" y="697.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-104" stroke="#FFFFFF" x="1110.7002" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-143" stroke="#FFFFFF" x="297.700195" y="697.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-105" stroke="#FFFFFF" x="1078.7002" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-144" stroke="#FFFFFF" x="265.700195" y="679.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-106" stroke="#FFFFFF" x="1110.7002" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-145" stroke="#FFFFFF" x="297.700195" y="679.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-107" stroke="#FFFFFF" x="1078.7002" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-146" stroke="#FFFFFF" x="265.700195" y="661.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-108" stroke="#FFFFFF" x="1110.7002" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-147" stroke="#FFFFFF" x="297.700195" y="661.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-109" stroke="#FFFFFF" x="1078.7002" y="150.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-148" stroke="#FFFFFF" x="265.700195" y="643.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-110" stroke="#FFFFFF" x="1110.7002" y="150.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-149" stroke="#FFFFFF" x="297.700195" y="643.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-111" stroke="#FFFFFF" x="1078.7002" y="132.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-150" stroke="#FFFFFF" x="265.700195" y="625.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-112" stroke="#FFFFFF" x="1110.7002" y="132.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-151" stroke="#FFFFFF" x="297.700195" y="625.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-113" stroke="#FFFFFF" x="1078.7002" y="114.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-114" stroke="#FFFFFF" x="1110.7002" y="114.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-115" stroke="#FFFFFF" x="1078.7002" y="96.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-116" stroke="#FFFFFF" x="1110.7002" y="96.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-117" stroke="#FFFFFF" x="1078.7002" y="78.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-118" stroke="#FFFFFF" x="1110.7002" y="78.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-119" stroke="#FFFFFF" x="1078.7002" y="60.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-120" stroke="#FFFFFF" x="1110.7002" y="60.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-121" stroke="#FFFFFF" x="1078.7002" y="42.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-122" stroke="#FFFFFF" x="1110.7002" y="42.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-123" stroke="#FFFFFF" x="1078.7002" y="24.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-124" stroke="#FFFFFF" x="1110.7002" y="24.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-128" stroke="#FFFFFF" x="1142.7002" y="240.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-164" stroke="#FFFFFF" x="329.700195" y="733.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-171" stroke="#FFFFFF" x="361.700195" y="733.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-129" stroke="#FFFFFF" x="1142.7002" y="222.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-165" stroke="#FFFFFF" x="329.700195" y="715.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-172" stroke="#FFFFFF" x="361.700195" y="715.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-130" stroke="#FFFFFF" x="1142.7002" y="204.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-166" stroke="#FFFFFF" x="329.700195" y="697.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-173" stroke="#FFFFFF" x="361.700195" y="697.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-131" stroke="#FFFFFF" x="1142.7002" y="186.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-167" stroke="#FFFFFF" x="329.700195" y="679.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-174" stroke="#FFFFFF" x="361.700195" y="679.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-132" stroke="#FFFFFF" x="1142.7002" y="168.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-168" stroke="#FFFFFF" x="329.700195" y="661.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-175" stroke="#FFFFFF" x="361.700195" y="661.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-133" stroke="#FFFFFF" x="1142.7002" y="150.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-169" stroke="#FFFFFF" x="329.700195" y="643.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-176" stroke="#FFFFFF" x="361.700195" y="643.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-134" stroke="#FFFFFF" x="1142.7002" y="132.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-170" stroke="#FFFFFF" x="329.700195" y="625.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-177" stroke="#FFFFFF" x="361.700195" y="625.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-135" stroke="#FFFFFF" x="1142.7002" y="114.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-136" stroke="#FFFFFF" x="1142.7002" y="96.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-137" stroke="#FFFFFF" x="1142.7002" y="78.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-138" stroke="#FFFFFF" x="1142.7002" y="60.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-139" stroke="#FFFFFF" x="1142.7002" y="42.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy-140" stroke="#FFFFFF" x="1142.7002" y="24.5" width="23" height="12"></rect>
+        <rect id="Rectangle-Copy" stroke="#FFFFFF" x="790.700195" y="24.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-25" stroke="#FFFFFF" x="528.700195" y="24.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-39" stroke="#FFFFFF" x="433.700195" y="24.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-16" stroke="#FFFFFF" x="963.700195" y="24.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-3" stroke="#FFFFFF" x="790.700195" y="72.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-26" stroke="#FFFFFF" x="528.700195" y="72.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-17" stroke="#FFFFFF" x="963.700195" y="72.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-5" stroke="#FFFFFF" x="695.700195" y="120.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-27" stroke="#FFFFFF" x="433.700195" y="120.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-4" stroke="#FFFFFF" x="790.700195" y="120.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-28" stroke="#FFFFFF" x="528.700195" y="120.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-18" stroke="#FFFFFF" x="963.700195" y="120.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-7" stroke="#FFFFFF" x="695.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-29" stroke="#FFFFFF" x="433.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-6" stroke="#FFFFFF" x="790.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-30" stroke="#FFFFFF" x="528.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-19" stroke="#FFFFFF" x="963.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-42" stroke="#FFFFFF" x="266.700195" y="168.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-9" stroke="#FFFFFF" x="695.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-31" stroke="#FFFFFF" x="433.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-8" stroke="#FFFFFF" x="790.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-32" stroke="#FFFFFF" x="528.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-20" stroke="#FFFFFF" x="963.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-43" stroke="#FFFFFF" x="266.700195" y="216.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-11" stroke="#FFFFFF" x="695.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-33" stroke="#FFFFFF" x="433.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-10" stroke="#FFFFFF" x="790.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-34" stroke="#FFFFFF" x="528.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-21" stroke="#FFFFFF" x="963.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-44" stroke="#FFFFFF" x="266.700195" y="264.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-13" stroke="#FFFFFF" x="695.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-35" stroke="#FFFFFF" x="433.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-12" stroke="#FFFFFF" x="790.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-36" stroke="#FFFFFF" x="528.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-22" stroke="#FFFFFF" x="963.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-45" stroke="#FFFFFF" x="266.700195" y="312.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-15" stroke="#FFFFFF" x="695.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-37" stroke="#FFFFFF" x="433.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-14" stroke="#FFFFFF" x="790.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-38" stroke="#FFFFFF" x="528.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-23" stroke="#FFFFFF" x="963.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-46" stroke="#FFFFFF" x="266.700195" y="360.5" width="78" height="42"></rect>
+        <rect id="Rectangle-Copy-60" stroke="#FFFFFF" x="266.700195" y="408.5" width="78" height="42"></rect>
+        <rect id="Rectangle" stroke="#FFFFFF" x="24.7001953" y="168.5" width="35" height="282"></rect>
+        <path d="M289.536621,610 C292.305176,610.030762 294.007324,607.97998 293.986816,605.395996 C293.986816,603.01709 292.582031,601.140625 289.331543,601.140625 L285.188965,601.140625 L285.188965,597.192871 L293.022949,597.192871 L293.022949,595.295898 L283.086914,595.295898 L283.086914,610 L289.536621,610 Z M289.198242,608.113281 L285.188965,608.113281 L285.188965,602.986328 L289.21875,602.986328 C290.849121,602.986328 291.884766,603.898926 291.884766,605.508789 C291.884766,607.098145 290.797852,608.113281 289.198242,608.113281 Z M296.950195,610 L298.426758,606.216309 L305.430176,606.216309 L306.906738,610 L309.09082,610 L303.317871,595.295898 L300.631348,595.295898 L294.807129,610 L296.950195,610 Z M304.691895,604.32959 L299.154785,604.32959 L301.92334,597.233887 L304.691895,604.32959 Z M310.762207,610 C313.151367,610 314.238281,608.779785 314.443359,606.657227 C314.504883,606.01123 314.556152,604.862793 314.607422,603.222168 C314.658691,601.581543 314.689453,600.217773 314.689453,599.141113 L314.689453,597.192871 L320.636719,597.192871 L320.636719,610 L322.73877,610 L322.73877,595.295898 L312.65918,595.295898 L312.65918,599.161621 C312.65918,600.453613 312.638672,601.786621 312.597656,603.160645 C312.556641,604.524414 312.505371,605.529297 312.443848,606.175293 C312.320801,607.487793 311.808105,608.000488 310.659668,608.072266 L309.572754,608.072266 L309.572754,610 L310.762207,610 Z M328.614258,610 L328.614258,605.45752 L331.177734,602.853027 L336.068848,610 L338.693848,610 L332.695312,601.294434 L338.591309,595.295898 L335.86377,595.295898 L328.614258,602.586426 L328.614258,595.295898 L326.512207,595.295898 L326.512207,610 L328.614258,610 Z M346.015137,610.205078 C349.983398,610.246094 352.998047,607.272461 352.946777,602.647949 C352.998047,598.023438 349.983398,595.049805 346.015137,595.09082 C342.12624,595.050625 339.153194,597.905698 339.084082,602.37247 L339.083496,602.647949 C339.032227,607.272461 342.046875,610.246094 346.015137,610.205078 Z M346.117676,608.318359 L345.912598,608.318359 C343.195312,608.349121 341.144531,606.134277 341.185547,602.647949 C341.144531,599.161621 343.195312,596.946777 345.912598,596.977539 L346.117676,596.977539 C348.845215,596.936523 350.875488,599.161621 350.844727,602.647949 C350.875488,606.134277 348.845215,608.359375 346.117676,608.318359 Z M357.960938,610 L357.960938,603.591309 L365.415527,603.591309 L365.415527,610 L367.517578,610 L367.517578,595.295898 L365.415527,595.295898 L365.415527,601.70459 L357.960938,601.70459 L357.960938,595.295898 L355.858887,595.295898 L355.858887,610 L357.960938,610 Z" id="БАЛКОН" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M151.63623,482 L151.63623,467.295898 L149.53418,467.295898 L149.53418,480.113281 L143.422852,480.113281 L143.422852,467.295898 L141.320801,467.295898 L141.320801,480.113281 L135.188965,480.113281 L135.188965,467.295898 L133.086914,467.295898 L133.086914,482 L151.63623,482 Z M166.330078,482 L166.330078,480.113281 L157.511719,480.113281 L157.511719,475.38623 L164.86377,475.38623 L164.86377,473.499512 L157.511719,473.499512 L157.511719,469.192871 L166.125,469.192871 L166.125,467.295898 L155.409668,467.295898 L155.409668,482 L166.330078,482 Z M174.082031,482.205078 C177.70166,482.23584 179.762695,480.349121 179.731934,478.01123 C179.731934,476.083496 178.77832,474.976074 176.901855,474.576172 C178.583496,474.032715 179.475586,472.730469 179.475586,471.161621 C179.506348,468.63916 177.28125,467.070313 174.246094,467.09082 C170.575195,467.049805 168.534668,469.377441 168.257812,471.981934 L170.421387,471.981934 C170.708496,469.982422 171.836426,468.957031 174.246094,468.957031 C176.15332,468.957031 177.373535,469.849121 177.373535,471.31543 C177.373535,472.720215 176.255859,473.622559 174.440918,473.622559 L172.400391,473.622559 L172.400391,475.509277 L174.369141,475.509277 C176.491699,475.509277 177.629883,476.339844 177.629883,477.816406 C177.629883,479.498047 176.460938,480.318359 174.082031,480.318359 C171.815918,480.318359 170.575195,479.344238 170.29834,477.334473 L168.155273,477.334473 C168.524414,480.543945 170.400879,482.205078 174.082031,482.205078 Z M182.008301,482 C184.397461,482 185.484375,480.779785 185.689453,478.657227 C185.750977,478.01123 185.802246,476.862793 185.853516,475.222168 C185.904785,473.581543 185.935547,472.217773 185.935547,471.141113 L185.935547,469.192871 L191.882812,469.192871 L191.882812,482 L193.984863,482 L193.984863,467.295898 L183.905273,467.295898 L183.905273,471.161621 C183.905273,472.453613 183.884766,473.786621 183.84375,475.160645 C183.802734,476.524414 183.751465,477.529297 183.689941,478.175293 C183.566895,479.487793 183.054199,480.000488 181.905762,480.072266 L180.818848,480.072266 L180.818848,482 L182.008301,482 Z M203.828613,482.205078 C207.796875,482.246094 210.811523,479.272461 210.760254,474.647949 C210.811523,470.023438 207.796875,467.049805 203.828613,467.09082 C199.860352,467.049805 196.845703,470.023438 196.896973,474.647949 C196.845703,479.272461 199.860352,482.246094 203.828613,482.205078 Z M203.931152,480.318359 L203.726074,480.318359 C201.008789,480.349121 198.958008,478.134277 198.999023,474.647949 C198.958008,471.161621 201.008789,468.946777 203.726074,468.977539 L203.931152,468.977539 C206.658691,468.936523 208.688965,471.161621 208.658203,474.647949 C208.688965,478.134277 206.658691,480.359375 203.931152,480.318359 Z M215.774414,482 L215.774414,475.591309 L223.229004,475.591309 L223.229004,482 L225.331055,482 L225.331055,467.295898 L223.229004,467.295898 L223.229004,473.70459 L215.774414,473.70459 L215.774414,467.295898 L213.672363,467.295898 L213.672363,482 L215.774414,482 Z M231.206543,482 L231.206543,469.192871 L237.738281,469.192871 L237.738281,467.295898 L229.125,467.295898 L229.104492,482 L231.206543,482 Z M242.619141,482 L249.837891,469.808105 L249.837891,482 L251.939941,482 L251.939941,467.295898 L249.171387,467.295898 L241.962891,479.395508 L241.962891,467.295898 L239.86084,467.295898 L239.86084,482 L242.619141,482 Z" id="ШЕЗЛОНГИ" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M13.1113281,318.205078 C17.4179688,318.256348 19.796875,314.964844 19.7661133,310.483887 C19.7866211,306.023437 17.5102539,303.060059 13.1728516,303.09082 C11.809082,303.09082 10.6811523,303.32666 9.79931641,303.79834 C8.92773438,304.27002 8.27148438,304.875 7.85107422,305.603027 C7.43066406,306.331055 7.1640625,307.110352 7.06152344,307.961426 L9.18408203,307.961426 C9.36865234,306.166992 10.8759766,304.977539 13.0703125,304.977539 L13.2753906,304.977539 C14.5878906,304.977539 15.6030273,305.387695 16.3310547,306.197754 C17.059082,307.007812 17.4897461,308.135742 17.6230469,309.561035 L11.0913086,309.561035 L11.0913086,311.447754 L17.6230469,311.447754 C17.3564453,314.308594 15.9106445,316.318359 13.2548828,316.318359 L13.0498047,316.318359 C11.0400391,316.318359 9.36865234,315.262207 9.12255859,313.334473 L7,313.334473 C7.19482422,316.256836 9.68652344,318.23584 13.1113281,318.205078 Z M24.8007812,318 L24.8007812,313.45752 L27.3642578,310.853027 L32.2553711,318 L34.8803711,318 L28.8818359,309.294434 L34.777832,303.295898 L32.050293,303.295898 L24.8007812,310.586426 L24.8007812,303.295898 L22.6987305,303.295898 L22.6987305,318 L24.8007812,318 Z M38.9921875,318 L38.9921875,312.206543 L43.0834961,312.206543 C45.8110352,312.227051 47.8413086,310.524902 47.8105469,307.756348 C47.8413086,304.987793 45.8110352,303.265137 43.0834961,303.295898 L36.8901367,303.295898 L36.8901367,318 L38.9921875,318 Z M42.7758789,310.30957 L38.9921875,310.30957 L38.9921875,305.192871 L42.7758789,305.192871 C44.6728516,305.192871 45.7084961,306.084961 45.7084961,307.756348 C45.7084961,309.427734 44.6728516,310.30957 42.7758789,310.30957 Z M49.7895508,318 L51.2661133,314.216309 L58.2695312,314.216309 L59.7460938,318 L61.9301758,318 L56.1572266,303.295898 L53.4707031,303.295898 L47.6464844,318 L49.7895508,318 Z M57.53125,312.32959 L51.9941406,312.32959 L54.7626953,305.233887 L57.53125,312.32959 Z M66.0830078,318 L66.0830078,311.591309 L73.5375977,311.591309 L73.5375977,318 L75.6396484,318 L75.6396484,303.295898 L73.5375977,303.295898 L73.5375977,309.70459 L66.0830078,309.70459 L66.0830078,303.295898 L63.980957,303.295898 L63.980957,318 L66.0830078,318 Z" id="ЭКРАН" fill="#FFFFFF" fill-rule="nonzero" transform="translate(41.319824, 310.648126) rotate(-90.000000) translate(-41.319824, -310.648126) "></path>
+        <path d="M1080.70068,279 C1083.00781,279.030762 1085.04834,277.359375 1085.00732,275.01123 C1085.00732,274.067871 1084.76123,273.288574 1084.2793,272.67334 C1083.79736,272.058105 1083.13086,271.678711 1082.30029,271.54541 C1083.74609,271.001953 1084.69971,269.791992 1084.69971,268.182129 C1084.74072,265.844238 1082.79248,264.265137 1080.49561,264.295898 L1074.08691,264.295898 L1074.08691,279 L1080.70068,279 Z M1080.17773,270.602051 L1076.18896,270.602051 L1076.18896,266.192871 L1080.17773,266.192871 C1081.6543,266.192871 1082.59766,267.043945 1082.59766,268.397461 C1082.59766,269.750977 1081.6543,270.602051 1080.17773,270.602051 Z M1080.28027,277.113281 L1076.18896,277.113281 L1076.18896,272.48877 L1080.28027,272.48877 C1081.87988,272.48877 1082.90527,273.350098 1082.90527,274.795898 C1082.90527,276.262207 1081.87988,277.113281 1080.28027,277.113281 Z M1098.93213,279 L1098.93213,277.113281 L1090.11377,277.113281 L1090.11377,272.38623 L1097.46582,272.38623 L1097.46582,270.499512 L1090.11377,270.499512 L1090.11377,266.192871 L1098.72705,266.192871 L1098.72705,264.295898 L1088.01172,264.295898 L1088.01172,279 L1098.93213,279 Z M1103.80273,279 L1103.80273,273.206543 L1107.89404,273.206543 C1110.62158,273.227051 1112.65186,271.524902 1112.62109,268.756348 C1112.65186,265.987793 1110.62158,264.265137 1107.89404,264.295898 L1101.70068,264.295898 L1101.70068,279 L1103.80273,279 Z M1107.58643,271.30957 L1103.80273,271.30957 L1103.80273,266.192871 L1107.58643,266.192871 C1109.4834,266.192871 1110.51904,267.084961 1110.51904,268.756348 C1110.51904,270.427734 1109.4834,271.30957 1107.58643,271.30957 Z M1114.6001,279 L1116.07666,275.216309 L1123.08008,275.216309 L1124.55664,279 L1126.74072,279 L1120.96777,264.295898 L1118.28125,264.295898 L1112.45703,279 L1114.6001,279 Z M1122.3418,273.32959 L1116.80469,273.32959 L1119.57324,266.233887 L1122.3418,273.32959 Z M1130.89355,279 L1130.89355,272.591309 L1138.34814,272.591309 L1138.34814,279 L1140.4502,279 L1140.4502,264.295898 L1138.34814,264.295898 L1138.34814,270.70459 L1130.89355,270.70459 L1130.89355,264.295898 L1128.7915,264.295898 L1128.7915,279 L1130.89355,279 Z M1144.68506,282.106934 L1144.68506,279 L1156.00537,279 L1156.00537,282.106934 L1158.0459,282.106934 L1158.0459,277.113281 L1155.8208,277.113281 L1155.8208,264.295898 L1145.67969,264.295898 L1145.67969,267.997559 C1145.64893,271.719727 1145.56689,274.160156 1145.42334,275.308594 C1145.29004,276.487793 1144.82861,277.092773 1143.76221,277.092773 L1142.65479,277.113281 L1142.65479,282.106934 L1144.68506,282.106934 Z M1153.71875,277.113281 L1146.82812,277.113281 C1147.19727,276.764648 1147.4126,276.19043 1147.48438,275.390625 C1147.55615,274.785645 1147.60742,273.729492 1147.63818,272.222168 C1147.66895,270.714844 1147.68945,269.299805 1147.68945,267.997559 L1147.68945,266.192871 L1153.71875,266.192871 L1153.71875,277.113281 Z M1160.81445,279 L1162.29102,275.216309 L1169.29443,275.216309 L1170.771,279 L1172.95508,279 L1167.18213,264.295898 L1164.49561,264.295898 L1158.67139,279 L1160.81445,279 Z M1168.55615,273.32959 L1163.01904,273.32959 L1165.7876,266.233887 L1168.55615,273.32959 Z" id="ВЕРАНДА" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M522.697266,206 L522.697266,175.506836 L540.055664,175.506836 L540.055664,206 L545.060547,206 L545.060547,170.990234 L517.692383,170.990234 L517.692383,206 L522.697266,206 Z M554.99707,206 L558.512695,196.991211 L575.1875,196.991211 L578.703125,206 L583.90332,206 L570.158203,170.990234 L563.761719,170.990234 L549.894531,206 L554.99707,206 Z M573.429688,192.499023 L560.246094,192.499023 L566.837891,175.604492 L573.429688,192.499023 Z M593.791016,206 L593.791016,192.206055 L603.532227,192.206055 C609.923286,192.254108 614.706473,188.329773 614.786901,181.922321 L614.787109,181.610352 C614.860352,175.018555 610.026367,170.916992 603.532227,170.990234 L588.786133,170.990234 L588.786133,206 L593.791016,206 Z M602.799805,187.689453 L593.791016,187.689453 L593.791016,175.506836 L602.799805,175.506836 C607.316406,175.506836 609.782227,177.630859 609.782227,181.610352 C609.782227,185.589844 607.316406,187.689453 602.799805,187.689453 Z M625.993164,206 L625.993164,195.18457 L632.09668,188.983398 L643.742188,206 L649.992188,206 L635.709961,185.272461 L649.748047,170.990234 L643.253906,170.990234 L625.993164,188.348633 L625.993164,170.990234 L620.988281,170.990234 L620.988281,206 L625.993164,206 Z M683.927734,188.495117 C684.048433,177.608091 677.032446,170.563896 667.741441,170.501375 L667.423828,170.501953 C657.975586,170.404297 650.797852,177.484375 650.919922,188.495117 C650.799223,199.382143 657.81521,206.426338 667.106215,206.488859 L667.423828,206.488281 C676.87207,206.585937 684.049805,199.505859 683.927734,188.495117 Z M667.953388,201.996909 L667.179688,201.996094 C660.709961,202.069336 655.827148,196.795898 655.924805,188.495117 C655.828585,180.316406 660.567426,175.076654 666.895299,174.994371 L667.667969,174.994141 C674.066607,174.89792 678.853559,180.039684 678.922909,188.130862 L678.922852,188.495117 C678.995017,196.673828 674.303224,201.937281 667.953388,201.996909 L667.953388,201.996909 Z M716.862305,196.50293 C716.862305,194.256836 716.276367,192.401367 715.128906,190.936523 C713.981445,189.47168 712.394531,188.568359 710.416992,188.250977 C713.859375,186.957031 716.129883,184.076172 716.129883,180.243164 C716.227539,174.676758 711.588867,170.916992 706.120117,170.990234 L690.861328,170.990234 L690.861328,206 L706.608398,206 C712.101562,206.073242 716.959961,202.09375 716.862305,196.50293 Z M705.363281,186.004883 L695.866211,186.004883 L695.866211,175.506836 L705.363281,175.506836 C708.878906,175.506836 711.125,177.533203 711.125,180.755859 C711.125,183.978516 708.878906,186.004883 705.363281,186.004883 Z M705.607422,201.507812 L695.866211,201.507812 L695.866211,190.49707 L705.607422,190.49707 C709.416016,190.49707 711.857422,192.547852 711.857422,195.990234 C711.857422,199.481445 709.416016,201.507812 705.607422,201.507812 Z M729.020508,206 L729.020508,195.18457 L735.124023,188.983398 L746.769531,206 L753.019531,206 L738.737305,185.272461 L752.775391,170.990234 L746.28125,170.990234 L729.020508,188.348633 L729.020508,170.990234 L724.015625,170.990234 L724.015625,206 L729.020508,206 Z M758.756836,206 L762.272461,196.991211 L778.947266,196.991211 L782.462891,206 L787.663086,206 L773.917969,170.990234 L767.521484,170.990234 L753.654297,206 L758.756836,206 Z M777.189453,192.499023 L764.005859,192.499023 L770.597656,175.604492 L777.189453,192.499023 Z" id="ПАРКОВКА" fill="#FFFFFF" fill-rule="nonzero" transform="translate(652.677734, 188.495117) rotate(-90.000000) translate(-652.677734, -188.495117) "></path>
+        <g id="Group-Copy" transform="translate(627.200195, 337.000000)">
+            <circle id="Oval" stroke="#FFFFFF" cx="24" cy="24" r="24"></circle>
+            <text id="+" transform="translate(24.500000, 20.000000) rotate(-360.000000) translate(-24.500000, -20.000000) " font-family="FavoritPro-Light, Favorit Pro" font-size="38" font-weight="300" line-spacing="36" fill="#FFFFFF">
+                <tspan x="13" y="37">+</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-2" transform="translate(302.200195, 531.000000)">
+            <circle id="Oval" stroke="#FFFFFF" cx="24" cy="24" r="24"></circle>
+            <text id="+" transform="translate(24.500000, 20.000000) rotate(-360.000000) translate(-24.500000, -20.000000) " font-family="FavoritPro-Light, Favorit Pro" font-size="38" font-weight="300" line-spacing="36" fill="#FFFFFF">
+                <tspan x="13" y="37">+</tspan>
+            </text>
+        </g>
+        <g id="Group-Copy-3" transform="translate(169.200195, 497.000000)">
+            <circle id="Oval" stroke="#FFFFFF" cx="24" cy="24" r="24"></circle>
+            <text id="+" transform="translate(24.500000, 20.000000) rotate(-360.000000) translate(-24.500000, -20.000000) " font-family="FavoritPro-Light, Favorit Pro" font-size="38" font-weight="300" line-spacing="36" fill="#FFFFFF">
+                <tspan x="13" y="37">+</tspan>
+            </text>
+        </g>
     </g>
 </svg>
