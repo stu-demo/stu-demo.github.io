@@ -18,6 +18,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-174588960-1');
+    
+    gtag('create', 'UA-174588960-1', 'auto', {'allowLinker': true});
+    gtag('require', 'linker');
+    gtag('linker:autoLink', ['widget.afisha.yandex.ru'] );
     </script>
 
     <meta charset='UTF-8'>
@@ -51,25 +55,21 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/66241795" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
-    <header>
-        <div id="movie-data-wrapper" class="h1">
-            <span id="movie-data-title"></span>&nbsp;<sup id="movie-data-age"></sup>
-            <div id="movie-data-time" class="number"></div>
-        </div>
-        <a href="index.html" id="logo" class="h1">Кино<br><span class="number">Флакон </span>IVI</a>
-        <div class="show-time-1">
-            <div id="show-1">Сеанс <span class="number">1</span></div>
-            <div class="time number">21:00</div>
-        </div>
-        <div class="show-time-2">
-            <div id="show-2">Сеанс <span class="number">2</span></div>
-            <div class="time number">00:00</div>
-        </div>
-        <div class="show-time-3">
-            <div id="show-3">Еще</div>
-            <div class="time number">3:00</div>
-        </div>
-    </header>
+        <header>
+            <div id="movie-data-wrapper" class="h1">
+                <span id="movie-data-title"></span>&nbsp;<sup id="movie-data-age"></sup>
+                <div id="movie-data-time" class="number"></div>
+            </div>
+            <a href="index.html" id="logo" class="h1">Кино<br><span class="number">Флакон </span>IVI</a>
+            <div class="show-time-1">
+                <div id="show-1">Сеанс <span class="number">1</span></div>
+                <div class="time number">21:00</div>
+            </div>
+            <div class="show-time-2">
+                <div id="show-2">Сеанс <span class="number">2</span></div>
+                <div class="time number">00:00</div>
+            </div>
+        </header>
 
     <!-- POPUP -->
     <div id="popup">
@@ -237,8 +237,8 @@
         <div class="date"><span class="number">17</span> Августа</div>
         <div class="overflow-container">
             <div class="slider">
-                <div class="movie">
-                    <img data-src="posters/courier.jpg" alt="Курьер">
+                <div class="movie coming-soon">
+                    <img data-src="" alt="Курьер">
                     <div class="movie-text">
                         <span>Курьер</span>
                         <span>[16+]</span>
@@ -505,7 +505,7 @@
                 <div class="movie">
                     <img data-src="posters/rainyday.jpg" alt="Дождливый день в Нью-Йорке">
                     <div class="movie-text">
-                        <span>Дождливый день в Нью-Йорке</span>
+                        <span>Дождливый день в&nbsp;Нью-Йорке</span>
                         <span>[16+]</span>
                         <span>00:00–2:00</span>
                         <span>2016</span>

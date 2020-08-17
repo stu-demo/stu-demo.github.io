@@ -101,14 +101,12 @@ font-family: 'Favorit';
 .show-time-1 {
   grid-area: 1 / 2 / 1 / 4;
   padding-left: 1px;
-  pointer-events: none;
   background-color: black;
 }
 
 .show-time-2 {
   grid-area: 1 / 3 / 1 / 4;
   padding-right: 12px;
-  pointer-events: none;
 }
 
 .show-time-3 {
@@ -450,6 +448,7 @@ outline: none;
 
 .page-intro-container {
   grid-area: 1 / 2 / 1 / 3;
+  margin-top: 72px;
 }
 
 .info-list-item {
@@ -515,7 +514,7 @@ padding: 0 24px 12px 0;
 .rules-wrapper{
 display: grid;
 grid-template-columns: 1fr 2fr;
-margin-bottom: 10px;
+margin: 6px 0;
 }
 
 .rules-wrapper:last-of-type {
@@ -524,16 +523,17 @@ margin-bottom: 12px;
 
 .qa-list {
 margin-top: -9px;
-font-size: 23px;
-line-height: 24px;
+font-size: 18px;
+line-height: 20px;
 }
 
 .qa-item {
 border-bottom: solid 1px #4c4c4c;
-padding: 5px 0 7px;
+padding: 8px 0 8px;
 margin-right: 12px;
 cursor: pointer;
 text-transform: none;
+letter-spacing: 0.2px;
 }
 
 .qa-item:hover .question:after{
@@ -562,6 +562,7 @@ font-family: 'Steinbeck-Italic';
 font-size: 18px;
 line-height: 18px;
 padding-top: 4px;
+display: none;
 }
 
 .qa-item.qa-open .question:after{
@@ -619,7 +620,8 @@ html, body {
 }
 
 header {
-  height: 44px;
+  height: 84px;
+  background-color: black;
 }
 
 #movie-data-wrapper {
@@ -629,6 +631,7 @@ header {
   white-space: normal;
   overflow-x: auto;
   height: fit-content;
+  min-height: 84px;
 }
 
 #movie-data-age {
@@ -647,43 +650,35 @@ header {
 }
 
 [class*="show-time-"] {
-  height: 44px;
-}
-
-.show-time-1,.show-time-2 {
-  pointer-events: all;
+  height: 84px;
 }
 
 .show-time-2 {
-  text-align: center;
-  grid-area: 1 / 2 / 1 / 4;
-}
-
-.show-time-3 {
   text-align: right;
   grid-area: 1 / 2 / 1 / 4;
 }
 
-.show-time-3 .time{
-  display: inline-block;
-}
-
-[id*="show-"] {
-  display: none;
-}
-
-.time {
-  width: fit-content;
-  display: inline-block;
-  margin-top: 0px;
-  font-size: 21px;
-  line-height: 20px;
-  transition: 0.3s;
+#show-1 {
   opacity: 0.4;
 }
 
+#show-2 {
+  pointer-events: all;
+}
+
 .show-time-1 .time {
-  opacity: 1;
+  display: none;
+}
+
+.show-time-2 .time {
+  text-align: left;
+}
+
+.time {
+  margin-top: 4px;
+  font-size: 50px;
+  line-height: 48px;
+  transition: 0.3s;
 }
 
 .overflow-container {
@@ -692,7 +687,8 @@ header {
 }
 
 .slider {
-  width: 100%;
+  width: 133.33%;
+  margin-left: 33.33%;
 }
 
 footer {
@@ -757,6 +753,15 @@ footer div {
   font-size: 12px;
   line-height: 12px;
 }
+
+.movie {
+  transform: translateX(-100%);
+}
+
+.movie img {
+  position: initial;
+}
+
 
 /* INFO MOBILE */
 .info-wrapper .overflow-container {

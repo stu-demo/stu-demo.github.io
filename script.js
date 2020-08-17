@@ -10,72 +10,38 @@ window.onload = function () {
     };
   });
   
-    var show1 = document.getElementById('show-1').nextElementSibling;
-    var show2 = document.getElementById('show-2').nextElementSibling;
-    var show3 = document.getElementById('show-3').nextElementSibling;
-    var more = document.getElementById('show-3');
-    var movie = document.getElementsByClassName('movie');
-    var time = document.getElementsByClassName('time');
-
-    /*SLIDER*/
-    show1.onclick = function() {
-      show1.style.opacity = '1';
-      show2.style.opacity = '0.4';
-      show3.style.opacity = '0.4';
-      for (i=0; i<movie.length; i++) {
-        movie[i].style.transform = 'translateX(0%)';
-      }
-      for (i=0; i<time.length; i++) {
-        //time[i].style.transform = 'translateX(0%)';
-      }
-    }
-  
-    show2.onclick = function() {
-      show1.style.opacity = '0.4';
-      show2.style.opacity = '1';
-      show3.style.opacity = '0.4';
-      for (i=0; i<movie.length; i++) {
-        movie[i].style.transform = 'translateX(-100%)';
-      }
-      for (i=0; i<time.length; i++) {
-        //time[i].style.transform = 'translateX(-50%)';
-      }
-    }
-
-    show3.onclick = function() {
-      show1.style.opacity = '0.4';
-      show2.style.opacity = '0.4';
-      show3.style.opacity = '1';
-      for (i=0; i<movie.length; i++) {
-        movie[i].style.transform = 'translateX(-200%)';
-      }
-      for (i=0; i<time.length; i++) {
-        //time[i].style.transform = 'translateX(-50%)';
-      }
-    }
+  var show1 = document.getElementById('show-1');
+  var show2 = document.getElementById('show-2');
+  var movie = document.getElementsByClassName('movie');
+  var time = document.getElementsByClassName('time');
 
 
-    more.onclick = function(e) {
-      if (e.target.textContent == "Закрыть") {
-        for (i=0; i<movie.length; i++) {
-          movie[i].style.transform = 'translateX(0%)';
-          e.target.textContent = "Еще";
-          show1.textContent = '21:00';
-          show2.textContent = '00:00';
-          show1.previousElementSibling.innerHTML = 'Сеанс <span class="number">1</span>';
-          show2.previousElementSibling.innerHTML = 'Сеанс <span class="number">2</span>';
-        }
-      } else {
-        for (i=0; i<movie.length; i++) {
-          movie[i].style.transform = 'translateX(-100%)';
-          e.target.textContent = "Закрыть";
-          show1.textContent = '00:00';
-          show2.textContent = '3:00';
-          show1.previousElementSibling.innerHTML = 'Сеанс <span class="number">2</span>';
-          show2.previousElementSibling.innerHTML = 'Сеанс <span class="number">3</span>';
-        }
-      }
+  /*SLIDER*/
+
+  show1.onclick = function() {
+    show2.style.opacity = '0.4';
+    show1.style.opacity = '1';
+    show2.nextElementSibling.textContent = '21:00';
+    for (i=0; i<movie.length; i++) {
+      movie[i].style.transform = 'translateX(0%)';
     }
+    for (i=0; i<time.length; i++) {
+      //time[i].style.transform = 'translateX(0%)';
+    }
+  }
+
+  show2.onclick = function() {
+    show2.style.opacity = '1';
+    show1.style.opacity = '0.4';
+    show2.nextElementSibling.textContent = '00:00';
+    for (i=0; i<movie.length; i++) {
+      movie[i].style.transform = 'translateX(-100%)';
+    }
+    for (i=0; i<time.length; i++) {
+      //time[i].style.transform = 'translateX(-50%)';
+    }
+  }
+
   
   
   
@@ -238,9 +204,58 @@ window.onload = function () {
       buybutton[0].style.top = e.clientY + 'px';
     };
   */
+ 
+ var xDown = null;                                                        
+ var yDown = null;
+ 
+ function getTouches(evt) {
+   return evt.touches ||             // browser API
+          evt.originalEvent.touches; // jQuery
+ }                                                     
+ 
+ function handleTouchStart(evt) {
+     const firstTouch = getTouches(evt)[0];                                      
+     xDown = firstTouch.clientX;                                      
+     yDown = firstTouch.clientY;                                      
+ };                                                
+ 
+ function handleTouchMove(evt) {
+     if ( ! xDown || ! yDown ) {
+         return;
+     }
+ 
+     var xUp = evt.touches[0].clientX;                                    
+     var yUp = evt.touches[0].clientY;
+ 
+     var xDiff = xDown - xUp;
+     var yDiff = yDown - yUp;
+ 
+     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+         if ( xDiff > 0 ) {
+             /* left swipe */ 
+             show2.onclick();
+         } else {
+             /* right swipe */
+             show1.onclick();
+         }                       
+     } else {
+         if ( yDiff > 0 ) {
+             /* up swipe */ 
+             movietouchstart(evt);
+         } else { 
+             /* down swipe */
+             movietouchstart(evt);
+         }                                                                 
+     }
+     /* reset values */
+     xDown = null;
+     yDown = null;                                             
+ };
+
   
     for (var i=0; i<movie.length; i++) {
-      movie[i].addEventListener('touchstart',movietouchstart);
+      movie[i].addEventListener('touchstart', handleTouchStart, false);        
+      movie[i].addEventListener('touchmove', handleTouchMove, false);
       movie[i].addEventListener('touchend',movietouchend);
       if (!movie[i].classList.contains('coming-soon')) {
         movie[i].addEventListener('mouseenter',hover);
