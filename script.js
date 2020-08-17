@@ -18,7 +18,8 @@ window.onload = function () {
 
   /*SLIDER*/
 
-  show1.onclick = function() {
+  show1.onclick = function(e) {
+    e.preventDefault();
     show2.style.opacity = '0.4';
     show1.style.opacity = '1';
     show2.nextElementSibling.textContent = '21:00';
@@ -30,7 +31,8 @@ window.onload = function () {
     }
   }
 
-  show2.onclick = function() {
+  show2.onclick = function(e) {
+    e.preventDefault();
     show2.style.opacity = '1';
     show1.style.opacity = '0.4';
     show2.nextElementSibling.textContent = '00:00';
@@ -232,7 +234,7 @@ window.onload = function () {
  
      if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
          if ( xDiff > 0 ) {
-             /* left swipe */ 
+             /* left swipe */
              show2.onclick();
          } else {
              /* right swipe */
