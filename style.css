@@ -421,6 +421,7 @@ transition: 0.3s;
   clip-path: ellipse(50% 50% at 50% 50%);
   border: solid 1px white;
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .flag {
