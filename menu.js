@@ -54,7 +54,7 @@ window.onload = function () {
     var flagclick = function(e) {
       var picname ='pic-' + e.target.className.match(/\d+/g);
       thispic = document.getElementsByClassName(picname)[0];
-      thispic.style.opacity = '0.5';
+      thispic.style.opacity = '1';
     }
 
     var flagclose = function(e) {
