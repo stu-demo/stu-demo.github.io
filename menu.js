@@ -55,6 +55,8 @@ window.onload = function () {
     for (var i=0; i < flag.length; i++) {
       flag[i].addEventListener('mouseenter', flagclick);
       flag[i].addEventListener('mouseleave', flagclose);
+      flag[i].addEventListener('touchstart', flagclick);
+      flag[i].addEventListener('touchend', flagclose);
   }
 
   };
