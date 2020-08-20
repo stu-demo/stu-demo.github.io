@@ -58,7 +58,7 @@ window.onload = function () {
     }
 
     var flagclose = function(e) {
-      thispic.style.opacity = '0';
+      thispic.style.opacity = '0.5';
     }
     
     for (var i=0; i < flag.length; i++) {
