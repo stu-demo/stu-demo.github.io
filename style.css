@@ -440,6 +440,7 @@ transition: 0.3s;
   margin-top: -18px;
   margin-left: -18px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .f1 {

@@ -1,11 +1,20 @@
 window.onload = function () {
   var date = document.getElementsByClassName('date');
-  for (var i = 0; i<date.length; i++) {
-    date[i].style.opacity = '1';
-  }
+  [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+      img.removeAttribute('data-src');
+      for (var i = 0; i<date.length; i++) {
+        date[i].style.opacity = '1';
+      }
+      for (var i = 0; i<flag.length; i++) {
+        flag[i].style.opacity = '1';
+      }
+    };
+  });
 
     /*MENU ANIMATION*/
-
+    /*
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
     var d = menulinks[0].clientHeight+15;
@@ -18,7 +27,7 @@ window.onload = function () {
         }
       }
     }
-
+    */
 
     var qa = document.getElementsByClassName('qa-item');
     var answer = function(e){
