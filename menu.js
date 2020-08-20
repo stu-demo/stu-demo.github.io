@@ -5,7 +5,7 @@ window.onload = function () {
   }
 
     /*MENU ANIMATION*/
-    /*
+
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
     var d = menulinks[0].clientHeight+15;
@@ -18,7 +18,7 @@ window.onload = function () {
         }
       }
     }
-    */
+
 
     var qa = document.getElementsByClassName('qa-item');
     var answer = function(e){
