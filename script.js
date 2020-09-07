@@ -14,14 +14,17 @@ window.onload = function () {
   fullcontent.style.opacity = '1';
 
   var preloader = document.getElementById('preloader-wrapper');
-  preloader.onclick = function() {
+  var hide = function() {
     preloader.style.transform = 'translateY(-100%)';
-    document.body.style.overflowY = 'auto';
-    document.body.style.position = 'relative';
     setTimeout(function(){
       preloader.remove();
+      document.body.classList.remove('notloaded');
     },800);
   }
+
+  document.body.addEventListener('click',hide);
+  document.body.addEventListener('scroll',hide);
+  document.body.addEventListener('touchstart',hide);
   
   var show1 = document.getElementById('show-1');
   var show2 = document.getElementById('show-2');

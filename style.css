@@ -27,6 +27,10 @@ src: url('fonts/Steinbeck-Italic.woff2') format('woff2'),
   -webkit-tap-highlight-color: transparent;
 }
 
+.notloaded {
+  position: fixed;
+  overflow: hidden;
+}
 
 html, body {
   position: relative;
@@ -43,14 +47,10 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
-body {
-  position: fixed;
-  overflow-y: hidden;
-}
-
 body::-webkit-scrollbar{ display: none; }
 body { overflow: -moz-scrollbars-none; }
 body { -ms-overflow-style: none; }
+
 
 #fullcontent {
   opacity: 0;
