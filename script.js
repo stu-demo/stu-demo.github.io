@@ -9,6 +9,11 @@ window.onload = function () {
       }
     };
   });
+
+  var preloader = document.getElementById('preloader-wrapper');
+  preloader.onclick = function() {
+    preloader.style.transform = 'translateY(-100%)';
+  }
   
   var show1 = document.getElementById('show-1');
   var show2 = document.getElementById('show-2');
@@ -21,7 +26,7 @@ window.onload = function () {
   show1.onclick = function() {
     show2.style.opacity = '0.4';
     show1.style.opacity = '1';
-    show2.nextElementSibling.textContent = '21:00';
+    show2.nextElementSibling.textContent = '20:00';
     for (i=0; i<movie.length; i++) {
       movie[i].style.transform = 'translateX(0%)';
     }
@@ -33,7 +38,7 @@ window.onload = function () {
   show2.onclick = function() {
     show2.style.opacity = '1';
     show1.style.opacity = '0.4';
-    show2.nextElementSibling.textContent = '00:00';
+    show2.nextElementSibling.textContent = '23:00';
     for (i=0; i<movie.length; i++) {
       movie[i].style.transform = 'translateX(-100%)';
     }
@@ -46,7 +51,7 @@ window.onload = function () {
   
   
     /*MENU ANIMATION*/
-    /*
+
     var logo = document.getElementById('logo');
     var menulinks = document.getElementsByClassName('menu-link');
     var d = menulinks[0].clientHeight+15;
@@ -59,8 +64,7 @@ window.onload = function () {
         }
       }
     }
-    */
-  
+ 
   
   
   
@@ -151,6 +155,15 @@ window.onload = function () {
       var i = 0;
       var code = el.closest('.movie-text').nextElementSibling.textContent;
       var x = el.closest('.movie-text').closest('.movie').closest('.slider').closest('.overflow-container').previousElementSibling;
+      if (el.closest('.movie-text').closest('.movie').classList.contains('for-free')) {
+        buybutton.textContent = 'Бесплатный вход';
+        buybutton.style.pointerEvents = 'none';
+        buybutton.style.cursor = 'default';
+      } else {
+        buybutton.textContent = 'Купить билет';
+        buybutton.style.pointerEvents = 'all';
+        buybutton.style.cursor = 'pointer';
+      }
       while (el) {
         info[i].textContent = el.textContent;
         el = el.nextElementSibling;
@@ -172,7 +185,7 @@ window.onload = function () {
           }
           document.body.style.position = 'fixed';
         } 
-        document.body.style.overflowY = 'hidden';
+        //document.body.style.overflowY = 'hidden';
       }
       for (var i=0; i < date.length; i++) {
         date[i].style.opacity = '0';
