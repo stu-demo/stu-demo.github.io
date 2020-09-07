@@ -43,6 +43,10 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 body::-webkit-scrollbar{ display: none; }
 body { overflow: -moz-scrollbars-none; }
 body { -ms-overflow-style: none; }
@@ -88,7 +92,7 @@ font-family: 'Steinbeck-Italic';
   position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
+  height: 100%;
   z-index: 100;
   transition: 0.8s;
   transition-timing-function: cubic-bezier(0.75, 0.1, 0.18, 1);

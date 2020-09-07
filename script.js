@@ -16,6 +16,10 @@ window.onload = function () {
   var preloader = document.getElementById('preloader-wrapper');
   preloader.onclick = function() {
     preloader.style.transform = 'translateY(-100%)';
+    document.body.style.overflowY = 'auto';
+    setTimeout(function(){
+      preloader.remove();
+    },800);
   }
   
   var show1 = document.getElementById('show-1');
