@@ -41,6 +41,10 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+body {
+  position: fixed;
   overflow-y: hidden;
 }
 
