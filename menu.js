@@ -1,4 +1,5 @@
 window.onload = function () {
+
   var date = document.getElementsByClassName('date');
   [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
     img.setAttribute('src', img.getAttribute('data-src'));

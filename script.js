@@ -10,6 +10,9 @@ window.onload = function () {
     };
   });
 
+  var fullcontent = document.getElementById('fullcontent');
+  fullcontent.style.opacity = '1';
+
   var preloader = document.getElementById('preloader-wrapper');
   preloader.onclick = function() {
     preloader.style.transform = 'translateY(-100%)';

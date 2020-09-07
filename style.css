@@ -21,6 +21,10 @@ src: url('fonts/Steinbeck-Italic.woff2') format('woff2'),
   -moz-box-sizing: border-box !important;
   -ms-box-sizing: border-box !important;
   box-sizing: border-box !important;   
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 
@@ -42,6 +46,10 @@ html, body {
 body::-webkit-scrollbar{ display: none; }
 body { overflow: -moz-scrollbars-none; }
 body { -ms-overflow-style: none; }
+
+#fullcontent {
+  opacity: 0;
+}
 
 .d-hidden {
   display: none;
@@ -84,6 +92,7 @@ font-family: 'Steinbeck-Italic';
   z-index: 100;
   transition: 0.8s;
   transition-timing-function: cubic-bezier(0.75, 0.1, 0.18, 1);
+  cursor: pointer;
 }
 
 video {
