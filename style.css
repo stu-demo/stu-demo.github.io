@@ -98,6 +98,12 @@ font-family: 'Steinbeck-Italic';
   transition: 0.8s;
   transition-timing-function: cubic-bezier(0.75, 0.1, 0.18, 1);
   cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
 }
 
 video {
