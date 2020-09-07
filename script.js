@@ -17,6 +17,7 @@ window.onload = function () {
   preloader.onclick = function() {
     preloader.style.transform = 'translateY(-100%)';
     document.body.style.overflowY = 'auto';
+    document.documentElement.style.overflowY = 'auto';
     setTimeout(function(){
       preloader.remove();
     },800);
