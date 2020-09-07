@@ -22,9 +22,14 @@ window.onload = function () {
     },800);
   }
 
+  var yo = function() {
+    console.log('sdf');
+  }
+
   document.body.addEventListener('click',hide);
-  document.body.addEventListener('scroll',hide);
+  document.body.addEventListener('wheel',hide);
   document.body.addEventListener('touchstart',hide);
+  
   
   var show1 = document.getElementById('show-1');
   var show2 = document.getElementById('show-2');
